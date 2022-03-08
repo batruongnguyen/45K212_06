@@ -1,0 +1,49 @@
+/* ------------------------------------------------- */
+/* ------------------DEFAULT SETUP------------------ */
+/* ------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #5a5a5a;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* ------------------------------------------------- */
+/* --------------------- HEADER -------------------- */
+/* ------------------------------------------------- */
+header{
+    background: url("../img/background1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 80px;
+ 
+}
+
+h2{
+    position: absolute;
+    font-family: 'Hubballi', cursive;
+    color: #ffffff;
+    margin-top: 310px;
+    margin-left: 470px;
+}
