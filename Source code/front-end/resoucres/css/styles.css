@@ -20,6 +20,10 @@ body{
     overflow-x: hidden;
 }
 
+section{
+    padding: 50px;
+}
+
 /* ------------------------------------------------- */
 /* --------------------- HEADER -------------------- */
 /* ------------------------------------------------- */
@@ -34,9 +38,10 @@ h1{
     position: absolute;
     color: #ffffff;
     font-family: 'Dancing Script', cursive;
-    margin-top: 200px;
-    margin-left: 500px;
+    margin-top: 16%;
+    margin-left: 38%;
     font-size: 80px;
+    font-weight: 400;
  
 }
 
@@ -44,6 +49,71 @@ h2{
     position: absolute;
     font-family: 'Hubballi', cursive;
     color: #ffffff;
-    margin-top: 310px;
-    margin-left: 470px;
+    margin-top: 23.5%;
+    margin-left: 41%;
+    font-weight:lighter;
+    font-size: 95%;
 }
+
+/* ------------------------------------------------- */
+/* --------------------- RATING -------------------- */
+/* ------------------------------------------------- */
+
+.rating{
+    background-color: #e8f5e1;
+    height: 500px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #345721;
+    font-weight: bolder;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+  #full-stars-example-two .rating-group {
+    display: inline-flex;
+  }
+  #full-stars-example-two .rating__icon {
+    pointer-events: none;
+  }
+  #full-stars-example-two .rating__input {
+    position: absolute !important;
+    left: -9999px !important;
+  }
+  #full-stars-example-two .rating__input--none {
+    display: none;
+  }
+  #full-stars-example-two .rating__label {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 1.6rem;
+  }
+  #full-stars-example-two .rating__icon--star {
+    color: orange;
+  }
+  #full-stars-example-two .rating__input:checked ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+  #full-stars-example-two .rating-group:hover .rating__label .rating__icon--star {
+    color: orange;
+  }
+  #full-stars-example-two .rating__input:hover ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+
+  /*------------------- COMMENT ---------------------*/
+textarea{
+    margin-top: 20px;
+    resize: none; /*mất resize góc dưới phải của ô mess */
+    height: 100px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+textarea{
+    background-color: #37804f49;
+}
+ 
