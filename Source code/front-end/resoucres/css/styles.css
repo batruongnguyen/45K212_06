@@ -42,7 +42,8 @@ h1{
     margin-left: 38%;
     font-size: 80px;
     font-weight: 400;
- 
+    animation-name: moveInLeft;
+    animation-duration: 2s;
 }
 
 h2{
@@ -53,6 +54,52 @@ h2{
     margin-left: 41%;
     font-weight:lighter;
     font-size: 95%;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}
+
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80% {
+      transform: translateX(10px)
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(100px);
+  }
+
+  80% {
+      transform: translateX(-10px)
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
 }
 
 /* ------------------------------------------------- */
@@ -106,14 +153,35 @@ h3{
 
   /*------------------- COMMENT ---------------------*/
 textarea{
-    margin-top: 20px;
-    resize: none; /*mất resize góc dưới phải của ô mess */
-    height: 100px;
-    width: 1000px;
+    margin-top: 50px;
+    resize: none;
+    height: 120px;
+    width: 800px;
     border-radius: 5px;
+    background-color: #37804f49;
+    padding: 1% 1%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    border: 0px solid #ccc;
+    transition: 0.5s;
+    outline: none;
 }
 
-textarea{
-    background-color: #37804f49;
+textarea:focus {
+  border: 2px solid #054e2a;
 }
- 
+
+input[type=submit]{
+  font-weight: 200;
+  font-size: 100%;
+  border-radius: 5px;
+  width: 15%;
+  cursor:pointer;
+}
+
+.btn{
+  background-color: #088044;
+  padding: 0.5% 0;
+  margin-top: 10px;
+}
+
