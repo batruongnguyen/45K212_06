@@ -107,7 +107,7 @@ h2{
 
 .rating{
     background-color: #e8f5e1;
-    height: 500px;
+    height: 600px;
     text-align: center;
 }
 
@@ -166,136 +166,7 @@ textarea{
     outline: none;
 }
 
-textarea:focus {
-  border: 2px solid #054e2a;
-}
-
-input[type=submit]{
-  font-weight: 200;
-  font-size: 100%;
-  border-radius: 5px;
-  width: 15%;
-  cursor:pointer;
-}
-
-.snip1457 {
-  border: none;
-  background-color: #5666a5;
-  border-radius: 5px;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 0px 30px;
-  display: inline-block;
-  margin: 15px 30px;
-  text-transform: uppercase;
-  line-height: 46px;
-  font-weight: 400;
-  font-size: 1em;
-  outline: none;
-  position: relative;
-  overflow: hidden;
-  font-size: 16px;
-  border-radius: 23px;
-  letter-spacing: 2px;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.snip1457:before {
-  opacity: 0;
-  content: "";
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  border-radius: inherit;
-  background-color: #ffffff;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-}
-.snip1457:after {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  border: 5px solid #5666a5;
-  content: '';
-  border-radius: inherit;
-}
-.snip1457:hover,
-.snip1457.hover {
-  background-color: #5666a5;
-  color: #ffffff;
-}
-.snip1457:hover:before,
-.snip1457.hover:before {
-  -webkit-transform: translateY(0%);
-  transform: translateY(0%);
-  opacity: 0.25;
-}
-
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.cta {
-  position: relative;
-  margin: auto;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
-}
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: rgba(255, 171, 157, 0.5);
-  width: 56px;
-  height: 56px;
-  transition: all 0.3s ease;
-}
-.cta span {
-  position: relative;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #111;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-.cta:hover:before {
-  width: 100%;
-  background: #ffab9d;
-}
-.cta:hover svg {
-  transform: translateX(0);
-}
-.cta:active {
-  transform: scale(0.96);
-}
-
-
+/*------------------- UPLOAD IMAGE ---------------------*/
 .wrapper {
   width: 100%;
   height: 100%;
@@ -303,6 +174,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .wrapper .file-upload {
   height: 100px;
   width: 100px;
@@ -319,6 +191,7 @@ a {
   color: #FFFFFF;
   font-size: 50px;
 }
+
 .wrapper .file-upload input[type=file] {
   height: 200px;
   width: 200px;
@@ -328,7 +201,47 @@ a {
   opacity: 0;
   cursor: pointer;
 }
+
 .wrapper .file-upload:hover {
   background-position: 0 -100%;
   color: #2590EB;
+}
+
+  /*------------------- SUBMIT ---------------------*/
+.wrapper .flie-submit {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  position: relative;
+  display:flex;
+  padding-left: 1.8%;
+  align-items: center;
+  border: 4px solid #FFFFFF;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #2590EB 50%, #FFFFFF 50%);
+  background-size: 100% 200%;
+  transition: all 1s;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+.wrapper .flie-submit input[type=submit] {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.wrapper .flie-submit:hover {
+  background-position: 0 -100%;
+  color: #2590EB;
+}
+
+.clearfix::after{
+  content: " ";
+  display:grid;
+  clear: both;
 }
