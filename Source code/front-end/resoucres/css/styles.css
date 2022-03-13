@@ -40,7 +40,7 @@ h1{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     top: 30%;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 400;
     animation-name: moveInLeft;
     animation-duration: 2s;
@@ -50,11 +50,11 @@ h2{
     font-family: 'Hubballi', cursive;
     color: #ffffff;
     font-weight:lighter;
-    font-size: 95%;
+    font-size: 98%;
     animation-name: moveInRight;
     animation-duration: 2s;
     text-align: center;
-    padding-top: 16%;
+    padding-top: 15%;
 }
 
 @keyframes moveInLeft {
@@ -138,13 +138,13 @@ h3{
     font-size: 1.6rem;
   }
   #full-stars-example-two .rating__icon--star {
-    color: orange;
+    color: #ffb91d;
   }
   #full-stars-example-two .rating__input:checked ~ .rating__label .rating__icon--star {
     color: #ddd;
   }
   #full-stars-example-two .rating-group:hover .rating__label .rating__icon--star {
-    color: orange;
+    color: #ffb91d;
   }
   #full-stars-example-two .rating__input:hover ~ .rating__label .rating__icon--star {
     color: #ddd;
@@ -152,19 +152,21 @@ h3{
 
   /*------------------- COMMENT ---------------------*/
 textarea{
-    margin-top: 50px;
+    margin-top: 45px;
     resize: none;
-    height: 120px;
-    width: 800px;
+    height: 142px;
+    width: 795px;
     border-radius: 5px;
-    background-color: #37804f49;
+    background-color: #c2dcb4;
     padding: 1% 1%;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     border: 0px solid #ccc;
     transition: 0.5s;
     outline: none;
+    color: #87997d;
 }
+
 
 /*------------------- UPLOAD IMAGE ---------------------*/
 .wrapper {
@@ -173,23 +175,25 @@ textarea{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .wrapper .file-upload {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   border-radius: 100px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid #FFFFFF;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #2590EB 50%, #FFFFFF 50%);
+  background-image: linear-gradient(to bottom, #6a7a61 50%, #FFFFFF 50%);
   background-size: 100% 200%;
   transition: all 1s;
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .wrapper .file-upload input[type=file] {
@@ -204,25 +208,24 @@ textarea{
 
 .wrapper .file-upload:hover {
   background-position: 0 -100%;
-  color: #2590EB;
+  color: #6a7a61;
 }
 
   /*------------------- SUBMIT ---------------------*/
 .wrapper .flie-submit {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   border-radius: 100px;
   position: relative;
   display:flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid #FFFFFF;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #2590EB 50%, #FFFFFF 50%);
+  background-image: linear-gradient(to bottom, #6a7a61 50%, #FFFFFF 50%);
   background-size: 100% 200%;
   transition: all 1s;
   color: #FFFFFF;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .wrapper .flie-submit input[type=submit] {
@@ -237,7 +240,7 @@ textarea{
 
 .wrapper .flie-submit:hover {
   background-position: 0 -100%;
-  color: #2590EB;
+  color: #6a7a61;
 }
 
 .comment li{
