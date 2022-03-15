@@ -164,7 +164,7 @@ textarea{
     border: 0px solid #ccc;
     transition: 0.5s;
     outline: none;
-    color: #87997d;
+    color: #2d332b;
 }
 
 
@@ -194,6 +194,7 @@ textarea{
   transition: all 1s;
   color: #FFFFFF;
   font-size: 30px;
+  border: 2px solid #6a7a61;
 }
 
 .wrapper .file-upload input[type=file] {
@@ -212,33 +213,26 @@ textarea{
 }
 
   /*------------------- SUBMIT ---------------------*/
-.wrapper .flie-submit {
-  height: 70px;
-  width: 70px;
-  border-radius: 100px;
-  position: relative;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+input[type=submit]{
+  border-radius: 5px;
+  width: 120%;
+}
+
+.btn{
+  color: white;
   background-image: linear-gradient(to bottom, #6a7a61 50%, #FFFFFF 50%);
   background-size: 100% 200%;
-  transition: all 1s;
-  color: #FFFFFF;
-  font-size: 30px;
-}
-
-.wrapper .flie-submit input[type=submit] {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
+  padding: 15px 20px;
   cursor: pointer;
+  margin-top: -10px;
+  transition: all 1s;
+  border: 2px none;
+  font-weight: bolder;
+  border: 2px solid #6a7a61;
 }
 
-.wrapper .flie-submit:hover {
+.btn:hover,
+.btn:active{
   background-position: 0 -100%;
   color: #6a7a61;
 }
