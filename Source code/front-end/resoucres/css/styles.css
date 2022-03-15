@@ -249,6 +249,16 @@ input[type=submit]{
   background-color: #6a7a61;
   height: 300px;
   text-align: center;
+  color: #f9f9f9;
+}
+
+.footer h3{
+  color: #f9f9f9;
+  font-size: 110%;
+}
+
+.footer p{
+  font-size: 80%;
 }
 
 .socials{
@@ -260,20 +270,24 @@ input[type=submit]{
 }
 
 .socials li{
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .socials a{
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   padding: 13px 15px;
   border-radius: 50%;
+  font-size: 70%;
+  text-align: center;
 }
 
 .socials a i{
   font-size: 1.5rem;
   width: 20px;
   transition: color .4s ease;
+  padding-bottom: 5px;
 }
 
 .socials a:hover i{
