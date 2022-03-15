@@ -176,24 +176,24 @@ textarea{
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .wrapper .file-upload {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 100px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #6a7a61 50%, #FFFFFF 50%);
+  background-image: linear-gradient(to bottom, #6a7a61 50%, #e8f5e1 50%);
   background-size: 100% 200%;
   transition: all 1s;
   color: #FFFFFF;
-  font-size: 30px;
+  font-size: 24px;
   border: 2px solid #6a7a61;
 }
 
@@ -219,16 +219,17 @@ input[type=submit]{
 }
 
 .btn{
-  color: white;
-  background-image: linear-gradient(to bottom, #6a7a61 50%, #FFFFFF 50%);
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #6a7a61 50%, #e8f5e1 50%);
   background-size: 100% 200%;
-  padding: 15px 20px;
+  padding: 13px 20px;
   cursor: pointer;
   margin-top: -10px;
   transition: all 1s;
   border: 2px none;
   font-weight: bolder;
   border: 2px solid #6a7a61;
+  vertical-align: middle;
 }
 
 .btn:hover,
@@ -239,4 +240,42 @@ input[type=submit]{
 
 .comment li{
   display:inline-block;
+}
+
+/* ------------------------------------------------- */
+/* --------------------- FOOTER -------------------- */
+/* ------------------------------------------------- */
+.footer{
+  background-color: #6a7a61;
+  height: 300px;
+  text-align: center;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 15px;
+  border-radius: 50%;
+}
+
+.socials a i{
+  font-size: 1.5rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+.socials a:hover i{
+  color: aqua;
 }
