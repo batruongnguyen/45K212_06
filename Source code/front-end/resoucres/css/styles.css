@@ -14,6 +14,7 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility; 
     font-family: 'Quicksand', sans-serif;
+    height: 1400px;
 }
 
 body{
@@ -247,18 +248,20 @@ input[type=submit]{
 /* ------------------------------------------------- */
 .footer{
   background-color: #6a7a61;
-  height: 300px;
+  height: 115px;
   text-align: center;
   color: #f9f9f9;
 }
 
+
 .footer h3{
   color: #f9f9f9;
-  font-size: 110%;
+  font-size: 50%;
+  padding-top: -100px;
 }
 
 .footer p{
-  font-size: 80%;
+  font-size: 20%;
 }
 
 .socials{
@@ -277,9 +280,9 @@ input[type=submit]{
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  padding: 13px 15px;
+  padding: 0 15px;
   border-radius: 50%;
-  font-size: 70%;
+  font-size: 30%;
   text-align: center;
 }
 
