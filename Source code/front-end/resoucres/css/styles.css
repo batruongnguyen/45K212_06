@@ -14,7 +14,6 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility; 
     font-family: 'Quicksand', sans-serif;
-    height: 1400px;
 }
 
 body{
@@ -45,6 +44,10 @@ h1{
     font-weight: 400;
     animation-name: moveInLeft;
     animation-duration: 2s;
+}
+
+header a{
+  text-decoration: none;
 }
 
 h2{
@@ -106,9 +109,9 @@ h2{
 /* --------------------- RATING -------------------- */
 /* ------------------------------------------------- */
 
-.rating{
+.rating-section{
     background-color: #e8f5e1;
-    height: 600px;
+    height: 100vh;
     text-align: center;
 }
 
@@ -246,22 +249,24 @@ input[type=submit]{
 /* ------------------------------------------------- */
 /* --------------------- FOOTER -------------------- */
 /* ------------------------------------------------- */
-.footer{
+.footer-section{
   background-color: #6a7a61;
-  height: 115px;
+  height: 8.2vh;
   text-align: center;
   color: #f9f9f9;
 }
 
 
-.footer h3{
+.footer-section h3{
   color: #f9f9f9;
-  font-size: 50%;
-  padding-top: -100px;
+  font-size: 80%;
+  margin-top:-46px;
+  margin-bottom: 5px;
+  font-weight: normal;
 }
 
-.footer p{
-  font-size: 20%;
+.footer-section p{
+  font-size: 50%;
 }
 
 .socials{
@@ -280,19 +285,21 @@ input[type=submit]{
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  padding: 0 15px;
+  padding: 0 5px;
   border-radius: 50%;
-  font-size: 30%;
+  font-size: 50%;
   text-align: center;
+  margin-left: 58px;
 }
 
 .socials a i{
-  font-size: 1.5rem;
-  width: 20px;
+  font-size: 1.2rem;
+  width: 25px;
   transition: color .4s ease;
   padding-bottom: 5px;
+  margin-top: -10px;
 }
 
 .socials a:hover i{
-  color: aqua;
+  color: #c2dcb4;
 }
