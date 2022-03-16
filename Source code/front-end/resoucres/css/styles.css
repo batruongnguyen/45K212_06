@@ -34,31 +34,36 @@ header{
     height: 100vh;
 }
 
-h1{
-    position: relative;
-    color: #ffffff;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    top: 30%;
-    font-size: 90px;
-    font-weight: 400;
-    animation-name: moveInLeft;
-    animation-duration: 2s;
+.text-box{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 header a{
   text-decoration: none;
+  display: block;
+  position: relative;
+  color: #f9f9f9;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 225%;
+  font-weight: 100;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
 }
 
-h2{
-    font-family: 'Hubballi', cursive;
-    color: #ffffff;
-    font-weight:lighter;
-    font-size: 98%;
-    animation-name: moveInRight;
-    animation-duration: 2s;
-    text-align: center;
-    padding-top: 15%;
+.heading-primary__sub{
+  display: block;
+  font-family: 'Hubballi', cursive;
+  color: #f9f9f9;
+  font-weight:lighter;
+  font-size: 50%;
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  text-align: center;
+  padding-top: 5px;
 }
 
 @keyframes moveInLeft {
