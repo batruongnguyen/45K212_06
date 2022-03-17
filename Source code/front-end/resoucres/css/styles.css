@@ -49,7 +49,7 @@ header a{
   font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 225%;
-  font-weight: 100;
+  font-weight: 300;
   animation-name: moveInLeft;
   animation-duration: 2s;
 }
@@ -98,16 +98,12 @@ header a{
   }
 }
 
-@keyframes moveInBottom {
-  0% {
-      opacity: 0;
-      transform: translateY(30px);
-  }
+header a:hover{
+  transform: translateY(-3px);
+}
 
-  100% {
-      opacity: 1;
-      transform: translateY(0px);
-  }
+header a:active{
+  transform: translateY(-1px);
 }
 
 /* ------------------------------------------------- */
@@ -116,7 +112,7 @@ header a{
 
 .rating-section{
     background-color: #e8f5e1;
-    height: 100vh;
+    height: 84.6vh;
     text-align: center;
 }
 
@@ -126,6 +122,10 @@ h3{
     font-weight: bolder;
     font-size: 150%;
     margin-bottom: 10px;
+}
+
+.rating-section h3{
+  padding-top: 20px;
 }
 
   #full-stars-example-two .rating-group {
@@ -174,8 +174,13 @@ textarea{
     transition: 0.5s;
     outline: none;
     color: #2d332b;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
+textarea:focus{
+  border: 2px solid #6a7a61;
+  }
 
 /*------------------- UPLOAD IMAGE ---------------------*/
 .wrapper {
@@ -202,7 +207,7 @@ textarea{
   background-size: 100% 200%;
   transition: all 1s;
   color: #FFFFFF;
-  font-size: 24px;
+  font-size: 33px;
   border: 2px solid #6a7a61;
 }
 
@@ -223,23 +228,29 @@ textarea{
 
   /*------------------- SUBMIT ---------------------*/
 input[type=submit]{
-  border-radius: 5px;
+  border-radius: 10px;
   width: 120%;
+}
+
+input[type=submit]:focus {
+  border: 3px solid #58257b;
 }
 
 .btn{
   color: #ffffff;
   background-image: linear-gradient(to bottom, #6a7a61 50%, #e8f5e1 50%);
   background-size: 100% 200%;
-  padding: 13px 20px;
+  padding: 8px 0;
   cursor: pointer;
   margin-top: -10px;
   transition: all 1s;
-  border: 2px none;
-  font-weight: bolder;
   border: 2px solid #6a7a61;
   vertical-align: middle;
+  font-weight:lighter;
+  font-size: 100%;
+  font-family: 'Quicksand', sans-serif;
 }
+
 
 .btn:hover,
 .btn:active{
@@ -272,6 +283,7 @@ input[type=submit]{
 
 .footer-section p{
   font-size: 50%;
+  color: #e8f5e1;
 }
 
 .socials{
@@ -306,5 +318,6 @@ input[type=submit]{
 }
 
 .socials a:hover i{
-  color: #c2dcb4;
+  color: rgb(255, 185, 29);
+  text-shadow: 0 0 5px rgba(255, 183, 29, 0.637);
 }
