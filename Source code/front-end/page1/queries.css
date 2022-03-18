@@ -1,31 +1,41 @@
 
-/* From 1100px to 1200px 
+ From 1100px to 1200px 
 @media only screen  and (max-width:1200px){
     h2{
         padding-top: 17.5%;
     }
 }
 
-/* From 1024px to 1099px 
+From 1024px to 1099px 
 @media only screen  and (max-width:1099px){
     h2{
         padding-top: 19%;
     }
 }
 
-/* Small tablet to big tablet from 900px to 1023px 
+ Small tablet to big tablet from 900px to 1023px 
 @media only screen and (max-width:1023px){
     h2{
         padding-top: 21.5%;
     }
 
 }
-
-/* Small tablet to big tablet from 768x to 899px 
+ Small tablet to big tablet from 768px to 899px 
 @media only screen and (max-width:899px){
     h2{
         padding-top: 23%;
     }
 
 }
-*/
+Small tablet to big tablet from 320px to 479px 
+@media only screen and (max-width:479px){
+    h2{
+        padding-top: 10%;
+    }
+}
+Small tablet to big tablet from 489px to 767px 
+@media only screen and (max-width:767px){
+    h2{
+        padding-top: 15%;
+    }
+}
