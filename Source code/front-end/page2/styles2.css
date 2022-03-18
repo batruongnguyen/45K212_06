@@ -72,23 +72,26 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-.second h1{
+.chiase{
+    display: block;
+    position: relative;
     font-family: 'Dancing Script', cursive;
-    padding-top: 3%;
+    padding-top: 3.5%;
     font-weight: 400;
-    font-size: 200%;
+    font-size: 135%;
 }
 
-.second h1 .fanpage{
+.fanpage{
+    display: block;
+    position: relative;
     font-family: 'Quicksand', sans-serif;
-    font-size: 50%;
-}
-
-.second ul{
-    padding: 5% 0;
+    font-size: 74%;
+    font-weight: 300;
+    top: -45px;
 }
 
 .second ul li{
+    position: relative;
     display: inline;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
