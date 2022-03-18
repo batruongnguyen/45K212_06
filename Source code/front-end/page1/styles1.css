@@ -314,6 +314,10 @@ input[type=submit]{
   margin-top: -10px;
 }
 
+.cursor{
+  cursor: default;
+}
+
 .socials a:hover i{
   color: rgb(255, 185, 29);
   text-shadow: 0 0 5px rgba(255, 183, 29, 0.637);
