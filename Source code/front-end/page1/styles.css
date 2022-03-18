@@ -28,6 +28,7 @@ section{
 /* --------------------- HEADER -------------------- */
 /* ------------------------------------------------- */
 header{
+    background-color: #6a7a61;
     background: url("../img/background1.png");
     background-size: cover;
     background-position: center;
