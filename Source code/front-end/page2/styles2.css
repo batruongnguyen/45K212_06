@@ -20,7 +20,7 @@ body{
 
 /* ------------------------------------ */
 .Share{
-    background: url(../front-end/img/backpage2.png);
+    background: url("../img/backpage2.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -43,7 +43,7 @@ body{
     width: 862px;
     height: 73px;
     font-weight: 400;
-    font-size: 110%;
+    font-size: 108%;
     top: 50px; 
 }
 
@@ -60,8 +60,8 @@ body{
 
 .second{
     position: absolute;
-    width: 1010px;
-    height: 283px;
+    width: 60%;
+    height: 38%;
     background: rgba(57, 65, 52, 0.4);
     border-radius: 20px;
     top: 60%;
@@ -70,10 +70,36 @@ body{
     color: #ffffff;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+}
+
+.second h1{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 3%;
     font-weight: 400;
+    font-size: 200%;
+}
+
+.second h1 .fanpage{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50%;
 }
 
 .second ul{
-    display: flex;
+    padding: 5% 0;
+}
+
+.second ul li{
+    display: inline;
     text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    background-color: rgb(57, 65, 52);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+.second ul li a{
+    text-decoration: none;
+    color: #ffffff;
 }
