@@ -233,10 +233,6 @@ input[type=submit]{
   width: 120%;
 }
 
-input[type=submit]:focus {
-  border: 3px solid #58257b;
-}
-
 .btn{
   color: #ffffff;
   background-image: linear-gradient(to bottom, #6a7a61 50%, #e8f5e1 50%);

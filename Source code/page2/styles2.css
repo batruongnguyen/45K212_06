@@ -1,0 +1,79 @@
+/* ------------------DEFAULT SETUP------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #5a5a5a;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* ------------------------------------ */
+.Share{
+    background: url(../front-end/img/backpage2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.first{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary__main{
+    display: block;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;   
+    color: #ffffff;
+    text-align: center;
+    width: 862px;
+    height: 73px;
+    font-weight: 400;
+    font-size: 110%;
+    top: 50px; 
+}
+
+.heading-primary__sub{
+    display: block;
+    position: relative;
+    color: #f9f9f9;
+    font-weight:lighter;
+    font-size: 75%;
+    font-family: 'Quicksand', sans-serif;
+    top: 15px;
+    letter-spacing: .02rem;
+}
+
+.second{
+    position: absolute;
+    width: 1010px;
+    height: 283px;
+    background: rgba(57, 65, 52, 0.4);
+    border-radius: 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.second ul{
+    display: flex;
+    text-decoration: none;
+}
