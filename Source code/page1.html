@@ -36,9 +36,10 @@
     <!----------------------- RATING ----------------------->
     <section class="rating-section" id="rating">
         <h3>Đánh Giá Dịch Vụ</h3>
-
+        <form name="evaluate">
         <div id="full-stars-example-two">
             <div class="rating-group">
+                
                 <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none"
                     value="0" type="radio">
                 <label aria-label="1 star" class="rating__label" for="rating3-1"><i
@@ -56,9 +57,11 @@
                 <label aria-label="5 stars" class="rating__label" for="rating3-5"><i
                         class="rating__icon rating__icon--star fa fa-star"></i></label>
                 <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                
             </div>
         </div>
-
+        
+        
         <div class="comment">
             <form>
                 <textarea placeholder="Hãy chia sẻ những trải nghiệm của bạn tại đây nhé"></textarea>
@@ -72,12 +75,12 @@
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <input type="submit" class="btn" value="Gửi đánh giá">
-                    </li>
                 </ul>
             </form>
+            
         </div>
+        <input type="submit" class="btn" value="Gửi đánh giá" onclick="check()">   
+            </form>
     </section>
 
     <!----------------------- FOOTER ----------------------->
