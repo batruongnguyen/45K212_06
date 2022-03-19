@@ -100,23 +100,23 @@
         padding-top: 13%;
     }
     textarea{
-        width:600px;
-        height: 150px;
+        width:500px;
+        height: 140px;
         margin-left: 2px;
     }
     .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
-        font-size: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 28px;
     }
     input[type=submit]{
         border-radius: 7px;
-        width: 120%;
-        padding: 9px;
+        width: 110%;
+        padding: 7px;
         font-size: 90%;
     }
     .rating-section h3{
-        font-size: 140%;
+        font-size: 120%;
     }
     header a{
         font-size: 160%;
@@ -139,6 +139,124 @@
         font-size: 18px;
     }
     .socials li {
-        margin: 0 22px;
+        margin: 0 35px;
+    }
+}
+/*Small tablet to big tablet from 781px to 1024px */
+@media only screen and (max-width:1024px){
+    header a{
+        padding-top: 15%;
+    }
+    textarea{
+        width:650px;
+        height: 170px;
+        margin-left: 2px;
+    }
+    .wrapper .file-upload{
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+    }
+    input[type=submit]{
+        border-radius: 7px;
+        width: 120%;
+        padding: 8px;
+        font-size: 100%;
+    }
+    .rating-section{
+        height: 70.6vh;
+    }
+    .rating-section h3{
+        font-size: 140%;
+    }
+    header a{
+        font-size: 180%;
+        font-weight: 300;
+    }
+    .heading-primary__sub{
+        font-size: 32%;
+    }
+    .footer-section p{
+        font-size: 55%;
+    }
+    .footer-section h3{
+        font-size: 65%;
+    }
+    .socials a{
+        font-size: 24%;
+        margin-left: 18px;
+    }
+    .socials a i{
+        font-size: 18px;
+    }
+    .socials li {
+        margin: 0 45px;
+    }
+    .socials{
+        margin: 1.5rem 0 4rem 0;
+    }
+}
+/*Small tablet to big tablet from 1025px to 1288px */
+@media only screen and (max-width:1288px){
+    header a{
+        padding-top: 13%;
+    }
+    textarea{
+        width:670px;
+        height: 180px;
+        margin-left: -100px;
+    }
+    .wrapper .file-upload{
+        height: 55px;
+        width: 55px;
+        font-size: 33px;
+        margin-left: -100px;
+    }
+    input[type=submit]{
+        border-radius: 9px;
+        width: 120%;
+        padding: 9px;
+        font-size: 100%;
+        margin-left: -25px;
+    }
+    .rating-section{
+        height: 70.6vh;
+    }
+    .rating-section h3{
+        font-size: 160%;
+        margin-left: -100px;
+    }
+    #full-stars-example-two .rating-group {
+        margin-left: -110px;
+    }
+    header a{
+        font-size: 190%;
+        font-weight: 300;
+        margin-left:-100px;
+    }
+    .heading-primary__sub{
+        font-size: 35%;
+        margin-left:-100px;
+    }
+    .footer-section p{
+        font-size: 60%;
+        margin-left:-100px;
+    }
+    .footer-section h3{
+        font-size: 70%;
+        margin-left:-100px;
+    }
+    .socials a{
+        font-size: 24%;
+        margin-left: -100px;
+    }
+    .socials a i{
+        font-size: 20px;
+    }
+    .socials li {
+        margin: 0 55px;
+    }
+    .socials{
+        margin:1.5rem 0 4rem 0;
     }
 }
