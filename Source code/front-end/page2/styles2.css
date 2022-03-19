@@ -20,6 +20,7 @@ body{
 
 /* ------------------------------------ */
 .Share{
+    background-color: #6a7a61;
     background: url("../img/backpage2.png");
     height: 100vh;
     background-size: cover;
@@ -50,7 +51,7 @@ body{
 .heading-primary__sub{
     display: block;
     position: relative;
-    color: #f9f9f9;
+    color: #ecedeb;
     font-weight:lighter;
     font-size: 75%;
     font-family: 'Quicksand', sans-serif;
@@ -58,12 +59,13 @@ body{
     letter-spacing: .02rem;
 }
 
+/* ------------------------------------ */
 .second{
     position: absolute;
-    width: 60%;
-    height: 38%;
+    width: 865px;
+    height: 255px;
     background: rgba(57, 65, 52, 0.4);
-    border-radius: 20px;
+    border-radius: 30px;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -78,31 +80,49 @@ body{
     font-family: 'Dancing Script', cursive;
     padding-top: 3.5%;
     font-weight: 400;
-    font-size: 135%;
+    font-size: 140%;
 }
 
 .fanpage{
     display: block;
     position: relative;
     font-family: 'Quicksand', sans-serif;
-    font-size: 74%;
+    font-size: 73%;
     font-weight: 300;
     top: -45px;
+    letter-spacing: .02rem;
+    color: #e8eae7;
 }
+
+/* ------------------------------------ */
 
 .second ul li{
     position: relative;
-    display: inline;
+    width: 170px;
+    height: 75px;
+    display: inline-block;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem;
+    font-size: 170%;
     background-color: rgb(57, 65, 52);
-    padding: 20px 30px;
-    border-radius: 20px;
-    margin: 0 20px;
+    border-radius: 22px;
+    margin: 0 8px;
+    margin-top: -15px;
+    padding-top: 8px;
 }
 
 .second ul li a{
     text-decoration: none;
     color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.second ul li:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+  
+.second ul li:active{
+    transform: translateY(-1px);
 }
