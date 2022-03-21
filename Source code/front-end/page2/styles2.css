@@ -74,7 +74,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-.chiase{
+.question{
     display: block;
     position: relative;
     font-family: 'Dancing Script', cursive;
@@ -83,7 +83,7 @@ body{
     font-size: 140%;
 }
 
-.fanpage{
+.note{
     display: block;
     position: relative;
     font-family: 'Quicksand', sans-serif;
