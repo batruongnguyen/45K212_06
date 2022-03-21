@@ -1,0 +1,95 @@
+.under li{
+padding:0 10px;
+   display: inline-block;
+}
+
+.under ul{
+    padding: 0 100px;
+}
+/* ------------------------------------ */
+section{
+    background-color: #6a7a61;
+    background: url("../img/background4.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.first{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary__main{
+    display: block;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;   
+    color: #585e50;
+    width: 756px;
+    height: 73px;
+    font-weight: 800;
+    font-size: 108%;
+    top: 400px; 
+}
+
+.note{
+    display: block;
+    position:absolute;
+    color: #585e50;
+    font-weight:500;
+    font-size: 60%;
+    font-family: 'Quicksand', sans-serif;
+    top: 330px;
+    letter-spacing: .02rem;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+.question{
+    display: block;
+    position:absolute;
+    color: #585e50;
+    font-weight:500;
+    font-size: 90%;
+    font-family: 'Quicksand', sans-serif;
+    top: 330px;
+    letter-spacing: .02rem;
+    margin-top: 260px;
+    margin-left: 115px;
+}
+
+.sdt ul{
+    position: absolute;
+    list-style: none;
+    margin-top: 650px;
+}
+.btn ul{
+    position: absolute;
+    list-style: none;
+    margin-top: 650px;
+    border-radius: 10px;
+}
+input[type=text]{
+    border-radius: 10px;
+    width: 100%;
+    color: #585e50;
+    background-color: #b5b6a8;
+    font-weight:500;
+    font-size: 80%;
+    padding: 10px 0;
+    border: 0px;
+
+
+}
+
+  input[type=submit]{
+  border-radius: 10px;
+  width: 100%;
+  
+}
+hr{
+    width: 50px;
+}
