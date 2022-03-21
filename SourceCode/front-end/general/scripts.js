@@ -23,7 +23,7 @@ function check() {
   else if (question_02 == "5" && count>=25) {
     window.location = "http://127.0.0.1:5500/page2.html";
   }
-  else if(question_03 == "0" && count>=25){
+  else if(question_03 == "0"){
     alert("Hãy để lại đánh giá sao cho chúng mình bạn nhé ^^");
   }
   else if(count<25){
