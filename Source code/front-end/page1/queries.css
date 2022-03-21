@@ -2,16 +2,16 @@
 @media only screen and (max-width:1920px){
     header a{
         padding-top: 18%;
-        font-size: 270%;
+        font-size: 300%;
         font-weight: 350;
         margin-left: -50px;
     }
     .heading-primary__sub{
-        font-size: 40%;
+        font-size: 60%;
         margin-left: -50px;
     }
     .rating-section h3{
-        font-size: 175%;
+        font-size: 195%;
         margin-left: -50px;
     }
     .rating-section{
@@ -27,15 +27,17 @@
         margin-left: -50px;
     }
     .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
+        height:60px;
+        width: 60px;
         font-size: 30px;
+        margin-left:  -700px;
     }
     input[type=submit]{
-        border-radius: 7px;
-        width: 120%;
-        padding: 8px;
-        font-size: 100%;
+        border-radius: 8px;
+        width: 9%;
+        padding: 12px;
+        font-size: 90%;
+    margin-left: 2px;
     }
     .footer-section p{
         font-size: 70%;
@@ -53,7 +55,7 @@
         font-size: 25px;
     }
     .socials{
-        margin: 1.1rem 0 4rem 0;
+        margin: 1.1rem 0 3rem 0;
     }
     .socials li {
         margin: 0 67px;
@@ -64,16 +66,16 @@
 @media only screen and (max-width:1688px){
     header a{
         padding-top: 16%;
-        font-size: 220%;
+        font-size: 290%;
         font-weight: 310;
         margin-left: -27px;
     }
     .heading-primary__sub{
-        font-size: 36%;
+        font-size: 50%;
         margin-left: -27px;
     }
     .rating-section h3{
-        font-size: 155%;
+        font-size: 185%;
         margin-left: -27px;
     }
     .rating-section{
@@ -89,15 +91,15 @@
         margin-left: -27px;
     }
     .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
-        font-size: 30px;
+        height: 60px;
+        width: 60px;
+        font-size: 35px;
     }
     input[type=submit]{
-        border-radius: 7px;
-        width: 120%;
-        padding: 8px;
-        font-size: 100%;
+        border-radius: 9px;
+        width: 10%;
+        padding: 10px;
+        font-size: 110%;
     }
     .footer-section {
         height: 9.2vh;
@@ -111,14 +113,14 @@
         margin-left: -17px;
     }
     .socials a{
-        font-size: 27%;
+        font-size: 23%;
         margin-left: 25px;
     }
     .socials a i{
-        font-size: 30px;
+        font-size: 28px;
     }
     .socials{
-        margin: 1.5rem 0 4rem 0;
+        margin: 1.1.5rem 0 3rem 0;
     }
     .socials li {
         margin: 0 65px;
