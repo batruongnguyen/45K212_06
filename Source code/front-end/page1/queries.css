@@ -29,12 +29,12 @@
     .wrapper .file-upload{
         height:60px;
         width: 60px;
-        font-size: 30px;
+        font-size: 33px;
         margin-left:  -700px;
     }
     input[type=submit]{
         border-radius: 8px;
-        width: 9%;
+        width: 10%;
         padding: 12px;
         font-size: 90%;
     margin-left: 2px;
@@ -48,17 +48,17 @@
         margin-left: -20px;
     }
     .socials a{
-        font-size: 30%;
-        margin-left: 30px;
+        font-size: 40%;
+        margin-left: 20px;
     }
     .socials a i{
-        font-size: 25px;
+        font-size: 28px;
     }
     .socials{
-        margin: 1.1rem 0 3rem 0;
+        margin: 1.0rem 0 3rem 0;
     }
     .socials li {
-        margin: 0 67px;
+        margin: 0 60px;
     }
 }
 
@@ -71,7 +71,7 @@
         margin-left: -27px;
     }
     .heading-primary__sub{
-        font-size: 50%;
+        font-size: 60%;
         margin-left: -27px;
     }
     .rating-section h3{
@@ -93,12 +93,12 @@
     .wrapper .file-upload{
         height: 60px;
         width: 60px;
-        font-size: 35px;
+        font-size: 33px;
     }
     input[type=submit]{
-        border-radius: 9px;
-        width: 10%;
-        padding: 10px;
+        border-radius: 10px;
+        width: 12%;
+        padding: 11px;
         font-size: 110%;
     }
     .footer-section {
@@ -113,14 +113,14 @@
         margin-left: -17px;
     }
     .socials a{
-        font-size: 23%;
-        margin-left: 25px;
+        font-size: 39%;
+        margin-left: 20px;
     }
     .socials a i{
-        font-size: 28px;
+        font-size: 27px;
     }
     .socials{
-        margin: 1.1.5rem 0 3rem 0;
+        margin: 1.1rem 0 3rem 0;
     }
     .socials li {
         margin: 0 65px;
@@ -130,16 +130,16 @@
 @media only screen and (max-width:1440px){
     header a{
         padding-top: 15%;
-        font-size: 200%;
+        font-size: 280%;
         font-weight: 300;
         margin-left: -21px;
     }
     .heading-primary__sub{
-        font-size: 33%;
+        font-size: 55%;
         margin-left: -21px;
     }
     .rating-section h3{
-        font-size: 135%;
+        font-size: 175%;
         margin-left: -21px;
     }
     .rating-section{
@@ -155,14 +155,14 @@
         margin-left: -21px;
     }
     .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
+        height: 58px;
+        width: 58px;
         font-size: 30px;
     }
     input[type=submit]{
-        border-radius: 7px;
-        width: 120%;
-        padding: 8px;
+        border-radius: 11px;
+        width: 13%;
+        padding: 12px;
         font-size: 100%;
     }
     .footer-section {
@@ -177,14 +177,14 @@
         margin-left: -14px;
     }
     .socials a{
-        font-size: 25%;
-        margin-left: 25px;
+        font-size: 38%;
+        margin-left: 20px;
     }
     .socials a i{
         font-size: 26px;
     }
     .socials{
-        margin: 1.5rem 0 4rem 0;
+        margin: 1.1rem 0 4rem 0;
     }
     .socials li {
         margin: 0 63px;
@@ -194,12 +194,12 @@
 @media only screen and (max-width:1366px){
     header a{
         padding-top: 13%;
-        font-size: 170%;
+        font-size: 270%;
         font-weight: 270;
         margin-left:-16px;
     }
     .heading-primary__sub{
-        font-size: 30%;
+        font-size: 50%;
         margin-left: -16px;
     }
     .rating-section h3{
@@ -219,13 +219,13 @@
         margin-left: -16px;
     }
     .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
+        height: 58px;
+        width: 58px;
         font-size: 30px;
     }
     input[type=submit]{
-        border-radius: 7px;
-        width: 120%;
+        border-radius: 8px;
+        width: 13%;
         padding: 8px;
         font-size: 100%;
     }
@@ -241,14 +241,14 @@
         margin-left: -12px;
     }
     .socials a{
-        font-size: 23%;
-        margin-left: 17px;
+        font-size: 37%;
+        margin-left: 18px;
     }
     .socials a i{
-        font-size: 23px;
+        font-size: 25px;
     }
     .socials{
-        margin: 1.5rem 0 4rem 0;
+        margin: 1.1rem 0 4rem 0;
     }
     .socials li {
         margin: 0 50px;
@@ -258,16 +258,16 @@
 @media only screen and (max-width:1288px){
     header a{
         padding-top: 12%;
-        font-size: 140%;
+        font-size: 250%;
         font-weight: 240;
         margin-left:-15px;
     }
     .heading-primary__sub{
-        font-size: 28%;
+        font-size: 35%;
         margin-left: -16px;
     }
     .rating-section h3{
-        font-size: 92%;
+        font-size: 95%;
         margin-left: -16px;
     }
     .rating-section{
@@ -278,18 +278,18 @@
         font-size: 1.7rem;
     }
     textarea{
-        width:680px;
+        width:650px;
         height: 130px;
         margin-left: -16px;
     }
     .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
-        font-size: 30px;
+        height: 56px;
+        width: 56px;
+        font-size: 28px;
     }
     input[type=submit]{
         border-radius: 7px;
-        width: 120%;
+        width: 13%;
         padding: 8px;
         font-size: 100%;
     }
@@ -305,11 +305,11 @@
         margin-left: -12px;
     }
     .socials a{
-        font-size: 23%;
+        font-size: 37%;
         margin-left: 17px;
     }
     .socials a i{
-        font-size: 22px;
+        font-size: 25px;
     }
     .socials{
         margin: 1.2rem 0 4rem 0;
@@ -322,16 +322,16 @@
 @media only screen and (max-width:768px){
     header a{
         padding-top: 11%;
-        font-size: 110%;
+        font-size: 220%;
         font-weight: 210;
         margin-left:-15px;
     }
     .heading-primary__sub{
-        font-size: 24%;
+        font-size: 33%;
         margin-left: -16px;
     }
     .rating-section h3{
-        font-size: 89%;
+        font-size: 92%;
         margin-left: -16px;
     }
     .rating-section{
@@ -342,20 +342,23 @@
         font-size: 1.5rem;
     }
     textarea{
-        width:620px;
+        width:500px;
         height: 130px;
         margin-left: -16px;
     }
     .wrapper .file-upload{
         height: 50px;
         width: 50px;
-        font-size: 30px;
+        font-size: 26px;
+    }
+    .wrapper{
+        padding-left: 54px;
     }
     input[type=submit]{
         border-radius: 7px;
-        width: 120%;
-        padding: 8px;
-        font-size: 100%;
+        width: 20%;
+        padding: 9px;
+        font-size: 90%;
     }
     .footer-section {
         height: 5.2vh;
@@ -369,11 +372,11 @@
         margin-left: -12px;
     }
     .socials a{
-        font-size: 18%;
-        margin-left: 17px;
+        font-size: 37%;
+        margin-left: 16px;
     }
     .socials a i{
-        font-size: 18px;
+        font-size: 23px;
     }
     .socials{
         margin: 1.1rem 0 4rem 0;
@@ -382,133 +385,3 @@
         margin: 0 20px;
     }
 }
-/*Small tablet to big tablet from 320px to 479px */
-@media only screen and (max-width:480px){
-    header a{
-        padding-top: 10%;
-        font-size: 97%;
-        font-weight: 170;
-        margin-left:-12px;
-    }
-    .heading-primary__sub{
-        font-size: 20%;
-        margin-left: -12px;
-    }
-    .rating-section h3{
-        font-size: 80%;
-        margin-left: -12px;
-    }
-    .rating-section{
-        height: 100.6vh;
-    }
-    #full-stars-example-two .rating-group {
-        margin-left: -12px;
-        font-size: 1.4rem;
-    }
-    textarea{
-        width:350px;
-        height: 100px;
-        margin-left: -12px;
-    }
-    .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
-        font-size: 30px;
-    }
-    input[type=submit]{
-        border-radius: 7px;
-        width: 120%;
-        padding: 8px;
-        font-size: 100%;
-    }
-    .footer-section {
-        height: 4.2vh;
-    }
-    .footer-section p{
-        font-size: 40%;
-        margin-left: -10px;
-    }
-    .footer-section h3{
-        font-size: 45%;
-        margin-left: -10px;
-    }
-    .socials a{
-        font-size: 16%;
-        margin-left: 17px;
-    }
-    .socials a i{
-        font-size: 16px;
-    }
-    .socials{
-        margin: 1.1rem 0 4rem 0;
-    }
-    .socials li {
-        margin: 0 20px;
-    }
-}
-/*Small tablet to big tablet from 0px to 319px */
-@media only screen and (max-width:320px){
-    header a{
-        padding-top: 9%;
-        font-size: 87%;
-        font-weight: 100;
-        margin-left:-10px;
-    }
-    .heading-primary__sub{
-        font-size: 18%;
-        margin-left: -10px;
-    }
-    .rating-section h3{
-        font-size: 75%;
-        margin-left: -10px;
-    }
-    .rating-section{
-        height: 100.6vh;
-    }
-    #full-stars-example-two .rating-group {
-        margin-left: -10px;
-        font-size: 1.1rem;
-    }
-    textarea{
-        width:220px;
-        height: 80px;
-        margin-left: -10px;
-    }
-    .wrapper .file-upload{
-        height: 50px;
-        width: 50px;
-        font-size: 30px;
-    }
-    input[type=submit]{
-        border-radius: 7px;
-        width: 120%;
-        padding: 8px;
-        font-size: 100%;
-    }
-    .footer-section {
-        height: 2.2vh;
-    }
-    .footer-section p{
-        font-size: 30%;
-        margin-left: -8px;
-    }
-    .footer-section h3{
-        font-size: 35%;
-        margin-left: -8px;
-    }
-    .socials a{
-        font-size: 15%;
-        margin-left: 5px;
-    }
-    .socials a i{
-        font-size: 10px;
-    }
-    .socials{
-        margin: 1.1rem 0 4rem 0;
-    }
-    .socials li {
-        margin: 0 5px;
-    }
-}
-
-
