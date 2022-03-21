@@ -1,29 +1,6 @@
-/* ------------------------------------------------- */
-/* ------------------DEFAULT SETUP------------------ */
-/* ------------------------------------------------- */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    background-color: #ffffff;
-    color: #5a5a5a;
-    font-size: 20px;
-    text-rendering: optimizeLegibility; 
-    font-family: 'Quicksand', sans-serif;
-}
-
-body{
-    overflow-x: hidden;
-}
-
 section{
-    padding: 50px;
+  padding: 50px;
 }
-
 /* ------------------------------------------------- */
 /* --------------------- HEADER -------------------- */
 /* ------------------------------------------------- */
