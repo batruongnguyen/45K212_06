@@ -10,16 +10,18 @@ html {
     background-color: #ffffff;
     color: #5a5a5a;
     font-size: 20px;
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
     font-family: 'Quicksand', sans-serif;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
+
 /* ------------------------------------ */
-.Share{
+
+.Share {
     background-color: #6a7a61;
     background: url("../img/backpage2.png");
     height: 100vh;
@@ -27,7 +29,7 @@ body{
     background-position: center;
 }
 
-.first{
+.first {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -35,32 +37,34 @@ body{
     text-align: center;
 }
 
-.heading-primary__main{
+.heading-primary__main {
     display: block;
     position: relative;
-    font-family: 'Quicksand', sans-serif;   
+    font-family: 'Quicksand', sans-serif;
     color: #ffffff;
     text-align: center;
     width: 862px;
     height: 73px;
     font-weight: 400;
     font-size: 108%;
-    top: 50px; 
+    top: 50px;
 }
 
-.heading-primary__sub{
+.heading-primary__sub {
     display: block;
     position: relative;
     color: #ecedeb;
-    font-weight:lighter;
+    font-weight: lighter;
     font-size: 75%;
     font-family: 'Quicksand', sans-serif;
     top: 15px;
     letter-spacing: .02rem;
 }
 
+
 /* ------------------------------------ */
-.second{
+
+.second {
     position: absolute;
     width: 865px;
     height: 255px;
@@ -74,7 +78,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-.question{
+.question {
     display: block;
     position: relative;
     font-family: 'Dancing Script', cursive;
@@ -83,7 +87,7 @@ body{
     font-size: 140%;
 }
 
-.note{
+.note {
     display: block;
     position: relative;
     font-family: 'Quicksand', sans-serif;
@@ -94,9 +98,10 @@ body{
     color: #e8eae7;
 }
 
+
 /* ------------------------------------ */
 
-.second ul li{
+.second ul li {
     position: relative;
     width: 170px;
     height: 75px;
@@ -111,18 +116,18 @@ body{
     padding-top: 8px;
 }
 
-.second ul li a{
+.second ul li a {
     text-decoration: none;
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
 }
 
-.second ul li:hover{
+.second ul li:hover {
     transform: translateY(-3px);
     cursor: pointer;
 }
-  
-.second ul li:active{
+
+.second ul li:active {
     transform: translateY(-1px);
 }
