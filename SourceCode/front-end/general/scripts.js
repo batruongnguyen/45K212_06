@@ -24,10 +24,18 @@ function check() {
     window.location = "http://127.0.0.1:5500/page2.html";
   }
   else if(question_03 == "0"){
-    alert("Hãy để lại đánh giá sao cho chúng mình bạn nhé ^^");
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Bạn đã quên đánh giá sao cho chúng mình?',
+    })
   }
   else if(count<25){
-    alert("Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé ^^");
+    Swal.fire({
+      icon: 'warning',
+      title: 'Oops...',
+      text: 'Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé',
+    })
   }
   else {
     window.location = "http://127.0.0.1:5500/page3.html";
