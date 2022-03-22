@@ -1,22 +1,24 @@
-.under li{
-padding:0 10px;
-   display: inline-block;
+.under li {
+    padding: 0 10px;
+    display: inline-block;
 }
 
-.under ul{
+.under ul {
     padding: 0 100px;
 }
+
+
 /* ------------------------------------ */
-section{
+
+section {
     background-color: #6a7a61;
     background: url("../img/background4.png");
     height: 100vh;
-    background-size:cover;
-    background-position:center;
-    
+    background-size: cover;
+    background-position: center;
 }
 
-.first{
+.first {
     position: absolute;
     top: 20%;
     left: 30%;
@@ -24,25 +26,24 @@ section{
     text-align: center;
 }
 
-.heading-primary__main{
+.heading-primary__main {
     display: block;
     position: relative;
-    font-family: 'Quicksand', sans-serif;   
+    font-family: 'Quicksand', sans-serif;
     color: #585e50;
     width: 880px;
     height: 73px;
     font-weight: 800;
     font-size: 110%;
-    top: 400px; 
+    top: 400px;
     margin-left: 130px;
-
 }
 
-.note{
+.note {
     display: block;
-    position:absolute;
+    position: absolute;
     color: #585e50;
-    font-weight:500;
+    font-weight: 500;
     font-size: 65%;
     font-family: 'Quicksand', sans-serif;
     top: 322px;
@@ -50,11 +51,12 @@ section{
     margin-top: 120px;
     margin-left: 170px;
 }
-.question{
+
+.question {
     display: block;
-    position:absolute;
+    position: absolute;
     color: #585e50;
-    font-weight:500;
+    font-weight: 500;
     font-size: 70%;
     font-family: 'Quicksand', sans-serif;
     top: 330px;
@@ -63,49 +65,49 @@ section{
     margin-left: 115px;
 }
 
-.sdt ul{
+.sdt ul {
     position: absolute;
     list-style: none;
     margin-top: 665px;
     margin-left: 0px;
-
 }
-.btn ul{
+
+.btn ul {
     position: absolute;
     list-style: none;
     margin-top: 650px;
     border-radius: 10px;
 }
-input[type=text]{
+
+input[type=text] {
     text-align: center;
     border-radius: 10px;
     width: 100%;
     color: #585e50;
     background-color: #b5b6a8;
-    font-weight:500;
+    font-weight: 500;
     font-size: 100%;
     padding: 10px 0;
     border: 0px;
     margin-left: 8px;
     font-family: 'Quicksand', sans-serif;
-
-
 }
 
-  input[type=submit]{
+input[type=submit] {
     text-align: center;
-  border-radius: 10px;
-  width: 150%;
-  color: #585e50;
-  background-color: #b5b6a8;
-  font-weight:600;
-  font-size: 100%;
-  padding: 10px 0;
-  border: 0px;
-  margin-left: 7px;
-  font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    width: 150%;
+    color: #585e50;
+    background-color: #b5b6a8;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 10px 0;
+    border: 0px;
+    margin-left: 7px;
+    font-family: 'Quicksand', sans-serif;
 }
-hr{
+
+hr {
     width: 170px;
     margin-left: 0px;
     margin-top: 15px;
