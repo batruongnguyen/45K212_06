@@ -10,7 +10,7 @@ go
 
 create table DATA
 (
-	rating_start int,
+	rating_star int,
 	comment nvarchar(250),
 	url_img text,
 	id_user varchar(50) primary key
