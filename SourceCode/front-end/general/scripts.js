@@ -38,6 +38,7 @@ function check() {
     }
 }
 
+/* ======== page 2 ========= */
 /*----- popup -----*/
 function popup() {
     let params =
@@ -45,12 +46,17 @@ function popup() {
     open('https://www.facebook.com/', 'test', params);
 }
 
+/* ======== page 3 ========= */
 /*----- check phone -----*/
-function formValidate() {
+function checkphone() {
     var regExp = /^(0[234][0-9]{8}|1[89]00[0-9]{4})$/;
     var phone = document.getElementById("phone").value;
     if (regExp.test(phone))
-        alert('SĐT hợp lệ!');
+        window.location = "http://127.0.0.1:5500/page5.html";
     else
-        alert('SĐT không hợp lệ!');
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Số điện thoại của bạn không đúng định dạng',
+        })
 }
