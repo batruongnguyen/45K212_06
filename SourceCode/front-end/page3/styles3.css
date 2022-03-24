@@ -1,15 +1,3 @@
-.under li {
-    padding: 0 10px;
-    display: inline-block;
-}
-
-.under ul {
-    padding: 0 100px;
-}
-
-
-/* ------------------------------------ */
-
 section {
     background-color: #6a7a61;
     background: url("../img/background4.png");
@@ -52,7 +40,17 @@ section {
     margin-left: 170px;
 }
 
-.question {
+hr {
+    width: 170px;
+    margin-left: 0px;
+    margin-top: 15px;
+    color: #585e50;
+}
+
+
+/* ------------------------------------ */
+
+.contact {
     display: block;
     position: absolute;
     color: #585e50;
@@ -65,51 +63,38 @@ section {
     margin-left: 115px;
 }
 
-.sdt ul {
+.form1 {
     position: absolute;
     list-style: none;
     margin-top: 665px;
-    margin-left: 0px;
-}
-
-.btn ul {
-    position: absolute;
-    list-style: none;
-    margin-top: 650px;
-    border-radius: 10px;
 }
 
 input[type=text] {
     text-align: center;
-    border-radius: 10px;
-    width: 100%;
     color: #585e50;
     background-color: #b5b6a8;
     font-weight: 500;
-    font-size: 100%;
-    padding: 10px 0;
+    font-size: 90%;
+    padding: 10px 15px;
     border: 0px;
-    margin-left: 8px;
+    margin-left: 60%;
     font-family: 'Quicksand', sans-serif;
+    border-radius: 15px;
 }
 
 input[type=submit] {
-    text-align: center;
-    border-radius: 10px;
-    width: 150%;
+    width: 5%;
     color: #585e50;
     background-color: #b5b6a8;
     font-weight: 600;
-    font-size: 100%;
-    padding: 10px 0;
-    border: 0px;
-    margin-left: 7px;
+    font-size: 90%;
+    padding: 10px 0px;
+    text-align: center;
+    border: none;
+    margin-left: 25%;
     font-family: 'Quicksand', sans-serif;
-}
-
-hr {
-    width: 170px;
-    margin-left: 0px;
-    margin-top: 15px;
-    color: #585e50;
+    position: absolute;
+    list-style: none;
+    margin-top: 665px;
+    border-radius: 25px;
 }
