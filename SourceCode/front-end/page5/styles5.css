@@ -1,0 +1,67 @@
+section {
+    background-color: #6a7a61;
+    background: url("../img/background1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text-box {
+    position: absolute;
+    background-color: #6a7d5f;
+    font-family: 'Dancing Script', cursive;
+    font-size: 255%;
+    text-align: center;
+    width: 50%;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+
+.heading-primary__sub {
+    font-size: 55%;
+}
+
+
+/*-------------*/
+
+.testimoials {
+    color: black;
+}
+
+.row {
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.col {
+    border-radius: 20px;
+}
+
+.row img {
+    height: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+blockquote {
+    width: 95%;
+    position: relative;
+    line-height: 140%;
+    margin-top: 80px;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+cite {
+    display: block;
+    margin-top: 32px;
+    font-weight: lighter;
+    font-style: normal;
+}
