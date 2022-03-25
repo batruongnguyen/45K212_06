@@ -21,6 +21,11 @@ app.get('/', (req, res) => {
   res.render('home')
 })
 
+// Post method
+app.post("/#rating", (req, res) => {
+  
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
