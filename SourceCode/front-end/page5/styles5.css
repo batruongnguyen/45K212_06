@@ -32,31 +32,31 @@ section {
 }
 
 .row {
-    background-color: rgba(255, 255, 255, 0.664);
-    padding: 0 10px;
-    max-width: 1140px;
+    padding: 0 20px;
+    max-width: 1540px;
     margin: 0 auto;
+    margin-left: 7%;
 }
 
 .col {
-    border-radius: 20px;
-}
-
-.row img {
-    height: 80px;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin-right: 5px;
-    object-fit: cover;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 160px;
+    margin-top: 10%;
+    margin: 10% 2.3%;
+    width: 28%;
+    margin-bottom: -90px;
 }
 
 blockquote {
     width: 95%;
     position: relative;
     line-height: 140%;
-    margin-top: 80px;
-    font-size: 110%;
+    margin-top: 10px;
+    font-size: 80%;
     font-weight: 600;
+    padding: 10px 40px;
+    padding-right: 10px;
 }
 
 cite {
@@ -64,4 +64,6 @@ cite {
     margin-top: 32px;
     font-weight: lighter;
     font-style: normal;
+    font-size: 75%;
+    line-height: 130%;
 }

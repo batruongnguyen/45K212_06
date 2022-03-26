@@ -49,7 +49,7 @@ function popup() {
 /* ======== page 3 ========= */
 /*----- check phone -----*/
 function checkphone() {
-    var regExp = /^(0[234][0-9]{8}|1[89]00[0-9]{4})$/;
+    var regExp = /^(0[1-9][0-9]{8}|1[89]00[0-9]{4})$/;
     var phone = document.getElementById("phone").value;
     if (regExp.test(phone))
         window.location = "http://127.0.0.1:5500/page5.html";
