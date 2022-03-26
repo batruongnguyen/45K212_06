@@ -1,33 +1,34 @@
 @media only screen and (max-width:1920px) {
     .heading-primary__main {
-        width: 950px;
-        height: 85px;
-        font-weight: 470;
-        font-size: 124%;
-        top: 77px;
+        width: 900px;
+        height: 80px;
+        font-weight: 450;
+        font-size: 120%;
+        top: 60px;
     }
     .heading-primary__sub {
-        font-size: 85.5%;
-        top: 38px;
+        font-size: 83%;
+        top: 20px;
     }
     .second {
-        width: 970px;
-        height: 350px;
+        width: 925px;
+        height: 300px;
         top: 62%;
     }
     .question {
-        font-weight: 460;
-        font-size: 160%;
+        font-weight: 450;
+        font-size: 150%;
     }
     .note {
-        font-size: 84%;
+        font-size: 82%;
         font-weight: 300;
         top: -41px;
     }
     .second ul li {
-        width: 220px;
+        width: 210px;
         height: 83px;
         font-size: 200%;
+        margin-top: 2px;
     }
 }
 
@@ -66,70 +67,70 @@
 
 @media only screen and (max-width:1440px) {
     .heading-primary__main {
-        width: 880px;
-        height: 78px;
-        font-weight: 420;
-        font-size: 113%;
-        top: 55px;
+        width: 840px;
+        height: 69px;
+        font-weight: 380;
+        font-size: 100%;
+        top: 45px;
     }
     .heading-primary__sub {
-        font-size: 78%;
-        top: 20px;
+        font-size: 65%;
+        top: 11px;
     }
     .second {
-        width: 900px;
-        height: 290px;
-        top: 60%;
+        width: 800px;
+        height: 235px;
+        top: 55%;
     }
     .question {
-        font-weight: 430;
-        font-size: 136%;
+        font-weight: 385;
+        font-size: 130%;
     }
     .note {
-        font-size: 78%;
-        font-weight: 300;
-        top: -50px;
+        font-size: 70%;
+        font-weight: 270;
+        top: -45px;
     }
     .second ul li {
-        width: 190px;
-        height: 78px;
-        font-size: 180%;
+        width: 150px;
+        height: 70px;
+        font-size: 170%;
+        margin-top:-10px;
     }
 }
 
 @media only screen and (max-width:1366px) {
-    /*
-   .heading-primary__main {
-        width: 900px;
-        height: 81px;
-        font-weight: 430;
-        font-size: 120%;
-        top: 60px;
+    .heading-primary__main {
+        width: 840px;
+        height: 69px;
+        font-weight: 380;
+        font-size: 100%;
+        top: 45px;
     }
     .heading-primary__sub {
-        font-size: 78%;
-        top: 15px;
+        font-size: 65%;
+        top: 11px;
     }
     .second {
-        width: 940px;
-        height: 330px;
-        top: 60%;
+        width: 800px;
+        height: 235px;
+        top: 55%;
     }
     .question {
-        font-weight: 447;
-        font-size: 137%;
+        font-weight: 385;
+        font-size: 130%;
     }
     .note {
-        font-size: 81%;
-        font-weight: 220;
-        top: -57px;
+        font-size: 70%;
+        font-weight: 270;
+        top: -45px;
     }
     .second ul li {
-        width: 200px;
-        height: 81px;
-        font-size: 190%;
+        width: 150px;
+        height: 70px;
+        font-size: 170%;
+        margin-top:-10px;
     }
-    */
 }
 
 @media only screen and (max-width:1288px) {
