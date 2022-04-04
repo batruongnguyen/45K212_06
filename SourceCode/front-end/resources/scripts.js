@@ -11,6 +11,7 @@ $(document).ready(
 )
 
 /*------ check -----*/
+/*
 function check() {
     var question_01 = document.evaluate.rating3.value;
     var question_02 = document.evaluate.rating3.value;
@@ -36,7 +37,7 @@ function check() {
     } else {
         window.location = "http://127.0.0.1:5500/page3.html";
     }
-}
+}*/
 
 /* ======== page 2 ========= */
 /*----- popup -----*/
@@ -59,4 +60,55 @@ function checkphone() {
             title: 'Oops...',
             text: 'Số điện thoại của bạn không đúng định dạng',
         })
+}
+
+/*-------------------*/
+document.getElementById("rating3-1").onclick = function(a) {
+    document.getElementById("info").style.display = 'initial';
+};
+document.getElementById("rating3-2").onclick = function() {
+    document.getElementById("info").style.display = 'initial';
+};
+document.getElementById("rating3-3").onclick = function() {
+    document.getElementById("info").style.display = 'initial';
+};
+
+document.getElementById("rating3-4").onclick = function() {
+    let params =
+        'width=window.innerWidth,height=window.innerHeight,menubar=no,toolbar=no,location=no,status=no,resizable=no,scrollbars=no'
+    open('https://www.facebook.com/BeautySpaDaNang/reviews/?ref=page_internal', 'test', params);
+    document.getElementById("info").style.display = 'none';
+};
+document.getElementById("rating3-5").onclick = function() {
+    let params =
+        'width=window.innerWidth,height=window.innerHeight,menubar=no,toolbar=no,location=no,status=no,resizable=no,scrollbars=no'
+    open('https://www.facebook.com/BeautySpaDaNang/reviews/?ref=page_internal', 'test', params);
+    document.getElementById("info").style.display = 'none';
+};
+/*-----*/
+function check() {
+    var question_01 = document.evaluate.rating3.value;
+    var question_03 = document.evaluate.rating3.value;
+    let myContent = document.getElementById("info");
+    let count = (myContent.value).length;
+
+    if (question_01 == "4" || question_01 == "5") {
+        Swal.fire({
+            text: 'Hãy đánh giá chúng mình trên facebook dưới dạng đề xuất nhé',
+        })
+    } else if (question_03 == "0") {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Bạn đã quên đánh giá sao cho chúng mình?',
+        })
+    } else if (count < 25) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Oops...',
+            text: 'Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé',
+        })
+    } else {
+        window.location = "http://127.0.0.1:5500/page3.html";
+    }
 }
