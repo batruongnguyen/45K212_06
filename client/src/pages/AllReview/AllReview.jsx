@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
-import "./AllReview.module.css";
+import "./AllReview.css";
+import "./gird.css";
 
 function AllReview() {
   return (
@@ -8,11 +9,11 @@ function AllReview() {
       <Helmet>
         <title> Review Board </title>
       </Helmet>
-          <div class="text-box">
-              <span class="heading-primary__main">
+          <div class="text-box-view">
+              <span class="main">
                   Nơi lưu giữ
               </span>
-              <span class="heading-primary__sub">
+              <span class="sub">
                   phản hồi của khách hàng
               </span>
           </div>
