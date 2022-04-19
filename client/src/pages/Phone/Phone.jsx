@@ -47,6 +47,7 @@ function Phone() {
         </h1>
         <div className="sdt">
           <form className="form1">
+          <input type="text" id="name" placeholder="Nhập tên" />
             <input type="text" id="phone" placeholder="Nhập số điện thoại" />
             <input
               type="submit"
