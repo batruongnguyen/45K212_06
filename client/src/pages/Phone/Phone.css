@@ -140,24 +140,224 @@ input[type=submit] {
 }
 
 
-/*----------------------------------------- */
-/*
-@media only screen and (max-width:1920px){
 
+@media only screen and (max-width:1920px){
+ .heading-primary_main {
+    height: 7rem;
+    font-weight: 900;
+    font-size: 750%;
+    top: 118rem;
+    margin-left: 100rem;
+ }
+ .note {
+    font-size: 460%;
+    top: 112rem;
+    letter-spacing: .02rem;
+    margin-top: 20rem;
+    margin-left: 100rem;
+ }
+ .contact {
+    width: 340rem;
+    font-weight:18rem;
+    font-size: 480%;
+    top: 95rem;
+    letter-spacing: .04rem;
+    margin-top: 100rem;
+    margin-left: 87rem;
+ }
+}
+input[type=text] {
+    font-weight: 600;
+    font-size: 700%;
+    padding: 5rem 4rem;
+    border: 0rem;
+    margin-left: 102%;
+    border-radius: 8rem;
+     margin-top: 25%;
+}
+input[type=submit] {
+    width: 30%;
+    font-weight: 600;
+    font-size: 750%;
+    padding: 8rem 5rem;
+    margin-left: 205%;
+    margin-top: -16rem;
+    border-radius: 10rem;
 }
 @media only screen and (max-width:1688px) {
-
-}
+    .heading-primary_main {
+        height: 7rem;
+        font-weight: 900;
+        font-size: 700%;
+        top: 116rem;
+        margin-left: 90rem;
+     }
+     .note {
+        font-size: 430%;
+        top: 111rem;
+        letter-spacing: .02rem;
+        margin-top: 20rem;
+        margin-left: 90rem;
+     }
+     .contact {
+        width: 320rem;
+        font-weight:15rem;
+        font-size: 450%;
+        top: 95rem;
+        letter-spacing: .04rem;
+        margin-top: 100rem;
+        margin-left: 70rem;
+     }
+    }
+    input[type=text] {
+        font-weight: 550;
+        font-size: 650%;
+        padding: 4.5rem 4rem;
+        border: 0rem;
+        margin-left: 90%;
+        border-radius: 9rem;
+         margin-top: 25%;
+    }
+    input[type=submit] {
+        width: 30%;
+        font-weight: 590;
+        font-size: 730%;
+        padding: 8rem 5rem;
+        margin-left: 195%;
+        margin-top: -16rem;
+        border-radius: 10rem;
+    }
 @media only screen and (max-width:1440px) {
-
+    .heading-primary_main {
+        height: 7rem;
+        font-weight: 900;
+        font-size: 670%;
+        top: 116rem;
+        margin-left: 50rem;
+     }
+     .note {
+        font-size: 420%;
+        top: 110rem;
+        letter-spacing: .02rem;
+        margin-top: 20rem;
+        margin-left: 50rem;
+     }
+     .contact {
+        width: 320rem;
+        font-weight:15rem;
+        font-size: 450%;
+        top: 95rem;
+        letter-spacing: .04rem;
+        margin-top: 97rem;
+        margin-left: 32rem;
+     }
+    }
+    input[type=text] {
+        font-weight: 520;
+        font-size: 620%;
+        padding: 4.5rem 4rem;
+        border: 0rem;
+        margin-left: 40%;
+        border-radius: 9rem;
+         margin-top: 25%;
+    }
+    input[type=submit] {
+        width: 28%;
+        font-weight: 550;
+        font-size: 710%;
+        padding: 7.5rem 5rem;
+        margin-left: 145%;
+        margin-top: -15rem;
+        border-radius: 10rem;
 }
 @media only screen and (max-width:1366px){
-
+    .heading-primary_main {
+        height: 6rem;
+        font-weight: 770;
+        font-size: 600%;
+        top: 100rem;
+        margin-left: 65rem;
+     }
+     .note {
+        font-size: 377%;
+        top: 100rem;
+        letter-spacing: .02rem;
+        margin-top: 12rem;
+        margin-left: 65rem;
+     }
+     .contact {
+        width: 290rem;
+        font-weight:15rem;
+        font-size: 400%;
+        top: 95rem;
+        letter-spacing: .04rem;
+        margin-top: 68rem;
+        margin-left: 46rem;
+     }
+    }
+    input[type=text] {
+        font-weight: 500;
+        font-size: 600%;
+        padding: 3rem 3rem;
+        border: 2rem;
+        margin-left: 60%;
+        border-radius: 7rem;
+        margin-top: -20rem;
+    }
+    input[type=submit] {
+        width: 26%;
+        font-weight: 520;
+        font-size: 650%;
+        padding: 6rem 4.5rem;
+        margin-left: 165%;
+        margin-top: -20rem;
+        border-radius: 8rem;
 }
+/*
 @media only screen and (max-width:1288px){
-
+    .heading-primary_main {
+        height: 6rem;
+        font-weight: 700;
+        font-size: 590%;
+        top: 110rem;
+        margin-left: 50rem;
+     }
+     .note {
+        font-size: 377%;
+        top: 100rem;
+        letter-spacing: .02rem;
+        margin-top: 12rem;
+        margin-left: 65rem;
+     }
+     .contact {
+        width: 290rem;
+        font-weight:15rem;
+        font-size: 400%;
+        top: 95rem;
+        letter-spacing: .04rem;
+        margin-top: 68rem;
+        margin-left: 46rem;
+     }
+    }
+    input[type=text] {
+        font-weight: 500;
+        font-size: 600%;
+        padding: 3rem 3rem;
+        border: 2rem;
+        margin-left: 60%;
+        border-radius: 7rem;
+        margin-top: -20rem;
+    }
+    input[type=submit] {
+        width: 26%;
+        font-weight: 520;
+        font-size: 650%;
+        padding: 6rem 4.5rem;
+        margin-left: 165%;
+        margin-top: -20rem;
+        border-radius: 8rem;
 }
 @media only screen and (max-width:768px){
 
 } 
-/*--------------------------------------*/
+*/
