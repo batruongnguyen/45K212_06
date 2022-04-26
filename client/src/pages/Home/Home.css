@@ -151,7 +151,6 @@
         color: #2d332b;
         -webkit-transition: 0.5s;
         transition: 0.5s;
-        display: none;
     }
     
     textarea:focus {

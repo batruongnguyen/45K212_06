@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,37 +10,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router-dom";
-import Swal from "sweetalert2";
 
 function Home() {
   const navigate = useNavigate();
   const [starIndex, setStarIndex] = useState(-1);
   const [hoverIndex, setHoverIndex] = useState(-1);
-
-  useEffect(() => {
-    if (starIndex == -1) return;
-    if (starIndex + 1 <= 3) {
-      document.getElementById("info").style.display = "initial";
-    } else {
-      document.getElementById("info").style.display = "none";
-      Swal.fire(
-        "Hãy đánh giá cho chúng mình trên fanpage dưới dạng đề xuất nhé~"
-      );
-      // if (result.isConfirmed) navigate("/all-review");
-      
-      setTimeout(() => {
-        let params =
-          "width=window.innerWidth,height=window.innerHeight,menubar=no,toolbar=no,location=no,status=no,resizable=no,scrollbars=no";
-        window.open(
-          "https://www.facebook.com/BeautySpaDaNang/reviews/?ref=page_internal",
-          "test",
-          params
-        );
-        navigate("/all-review");
-      }, 2000);
-      
-    }
-  }, [starIndex]);
 
   return (
     <>
@@ -96,7 +70,7 @@ function Home() {
           <div className="comment">
             <textarea
               id="info"
-              placeholder="Hãy chia sẻ những trải nghiệm của bạn tại đây nhé"
+              placeholder="Hãy chia sẻ những trải nghiệm của bạn tại đây nhé (đề xuất cần có ít nhất 25 ký tự)"
             ></textarea>
             <br />
             <div className="wrapper">
