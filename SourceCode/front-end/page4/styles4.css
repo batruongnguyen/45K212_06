@@ -1,0 +1,52 @@
+body {
+    background-color: #6a7a61;
+    background: url("../img/background1.png");
+    background-size: cover;
+    background-position: center;
+    color: #2a2c1d;
+    height: 100vh;
+    overflow-x: auto;
+}
+
+.TK {
+    position: absolute;
+    top: 47vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    position: relative;
+    display: block;
+}
+
+h1 {
+    border: 2px dashed #b5b6a8;
+    padding: .6rem 0;
+    font-size: 2.5rem;
+    color: #b5b6a8;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.table {
+    position: relative;
+    padding-top: 2rem;
+    left: -100%;
+}
+
+table {
+    width: 300%;
+    font-family: 'Quicksand', sans-serif;
+    border-collapse: collapse;
+    padding-top: 2rem;
+}
+
+th {
+    border-bottom: 1px solid #c2dcb45b;
+    padding: .3rem 0;
+}
+
+td {
+    padding: .3rem 0;
+}
