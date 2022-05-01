@@ -26,38 +26,46 @@
 </head>
 
 <body>
-    <Section class="Share.bg">
+    <Section class="Share">
+        <div class="page3">
 
-        <div class="first">
-            <h2>
-                <span class="heading-primary__main">
+
+            <div class="first">
+                <h2>
+                    <span class="heading-primary__main" style="font-weight: 500;">
                     Cảm ơn bạn đã đánh giá về dịch vụ của Beauty Spa
-                </span>
-                <br>
-                <span class="note">
+                    </span>
+                    <br>
+                    <span class="note" style="font-weight: 400;">
                     Mỗi một góp ý là một niềm vui, là động lực để chúng tôi phát triển tốt hơn.
                     <hr>
                 </span>
-            </h2>
-        </div>
-
-        <div class="under">
-            <h1>
-                <span class="contact">
-                    Bạn có thể chia sẻ thông tin liên lạc để nhân viên chúng tôi có thể liên hệ và giải quyết thích đáng
-                    <br> về vấn đề mà bạn đang gặp phải
-                </span>
-            </h1>
-            <div class="sdt">
-                <form class="form1">
-                    <form>
-                        <input type="text" id="name" placeholder="Nhập tên" />
-                        <input type="text" id="phone" placeholder="Nhập số điện thoại">
-                    </form>
-                    <input type="submit" class="btn" value="Gửi" onclick="checkphone()">
-                </form>
+                </h2>
             </div>
 
+            <div class="under">
+                <h1>
+                    <span class="contact">
+                    Bạn có thể chia sẻ thông tin liên lạc để nhân viên chúng tôi có thể liên hệ và giải quyết thích đáng về vấn đề mà bạn đang gặp phải
+                </span>
+                </h1>
+                <div class="sdt">
+                    <form class="form1">
+                        <form>
+                            <ul>
+                                <li style="margin-top: .3rem;">
+                                    <input type="text" id="name" placeholder="Nhập tên" />
+                                </li>
+                                <li>
+                                    <input type="text" id="phone" placeholder="Nhập số điện thoại">
+                                </li>
+                            </ul>
+                        </form>
+                        <input type="submit" class="btn" value="Gửi" onclick="checkphone()">
+                    </form>
+                </div>
+            </div>
+        </div>
     </Section>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.6/dist/sweetalert2.all.min.js"></script>
