@@ -1,0 +1,1 @@
+<?php header( 'location: /page1.html'); ?>
