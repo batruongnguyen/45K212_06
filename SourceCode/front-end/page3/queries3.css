@@ -1,19 +1,314 @@
-/*@media only screen and (max-width:1920px){
-
+@media only screen and (max-width:1920px){
+    .heading-primary__main {
+    width: 1200px;
+    height: 98px;
+    font-weight: 850;
+    font-size: 160%;
+    top: 550px;
+    margin-right: -105px;
+    }
+    .note{
+    font-weight: 500;
+    font-size: 80%;
+    top: 470px;
+    letter-spacing: .02rem;
+    margin-top: 140px;
+    margin-left: 150px;
+    }
+    .contact{
+        font-weight: 500;
+        font-size: 90%;
+        margin-top: 260px;
+        top: 570px;
+    }
+    .form1{
+        margin-top: 930px;
+    }
+    input[type=text]{
+        font-weight: 500;
+        font-size: 120%;
+        padding: 18px 23px;
+        border: 0px;
+        margin-left: 20%;
+        border-radius: 15px;
+    }
+    input[type=submit]{
+    Width: 5%;
+    font-weight: 600;
+    font-size: 120%;
+    padding: 40px 25px;
+    margin-left: 25%;
+    margin-top: 940px;
+    border-radius: 25px;
+    }
 }
-@media only screen and (max-width:1688px) {
-
+@media only screen and (max-width:1688px){
+    .heading-primary__main {
+        width: 1100px;
+        height: 92px;
+        font-weight: 800;
+        font-size: 130%;
+        top: 470px;
+        margin-right: -105px;
+        }
+        .note{
+        font-weight: 500;
+        font-size: 70%;
+        top: 380px;
+        letter-spacing: .02rem;
+        margin-top: 140px;
+        margin-left: 210px;
+        }
+        .contact{
+            font-weight: 500;
+            font-size: 80%;
+            margin-top: 260px;
+            top: 430px;
+            margin-left: 155px;
+        }
+        .form1{
+            margin-top: 770px;
+        }
+        input[type=text]{
+            font-weight: 500;
+            font-size: 115%;
+            padding: 15px 20px;
+            border: 0px;
+            margin-left: 25%;
+            border-radius: 15px;
+        }
+        input[type=submit]{
+        Width: 5%;
+        font-weight: 600;
+        font-size: 115%;
+        padding: 40px 25px;
+        margin-left: 27%;
+        margin-top: 772px;
+        border-radius: 25px;
+        }
 }
-@media only screen and (max-width:1440px) {
-
+@media only screen and (max-width:1440px){
+    .heading-primary__main {
+        width: 1100px;
+        height: 92px;
+        font-weight: 795;
+        font-size: 123%;
+        top: 470px;
+        margin-right: -40px;
+        }
+        .note{
+        font-weight: 500;
+        font-size: 67%;
+        top: 380px;
+        letter-spacing: .02rem;
+        margin-top: 134px;
+        margin-left: 230px;
+        }
+        .contact{
+            font-weight: 500;
+            font-size: 78%;
+            margin-top: 260px;
+            top: 415px;
+            margin-left: 70px;
+        }
+        .form1{
+            margin-top: 760px;
+        }
+        input[type=text]{
+            font-weight: 500;
+            font-size: 110%;
+            padding: 14px 19px;
+            border: 0px;
+            margin-left: 12%;
+            border-radius: 15px;
+        }
+        input[type=submit]{
+        Width: 5%;
+        font-weight: 600;
+        font-size: 110%;
+        padding: 40px 5px;
+        margin-left: 26%;
+        margin-top: 768px;
+        border-radius: 25px;
+        }
 }
 @media only screen and (max-width:1366px){
-
+    .heading-primary__main {
+        width: 880px;
+        height: 73px;
+        font-weight: 800;
+        font-size: 110%;
+        top: 400px;
+        margin-left: 130px;
+        }
+        .note{
+        font-weight: 500;
+        font-size: 65%;
+        top: 322px;
+        letter-spacing: .02rem;
+        margin-top: 120px;
+        margin-left: 170px;
+        }
+        .contact{
+            font-weight: 500;
+            font-size: 70%;
+            margin-top: 260px;
+            top: 330px;
+            margin-left: 97px;
+        }
+        .form1{
+            margin-top: 665px;
+        }
+        input[type=text]{
+            font-weight: 500;
+            font-size: 90%;
+            padding: 10px 15px;
+            border: 0px;
+            margin-left: 20%;
+            border-radius: 15px;
+        }
+        input[type=submit]{
+        Width: 5%;
+        font-weight: 600;
+        font-size: 90%;
+        padding: 30px 3px;
+        margin-left: 25%;
+        margin-top: 665px;
+        border-radius: 25px;
+        }
 }
-@media only screen and (max-width:1288px){
-
+@media only screen and (max-width:1280px){
+    .heading-primary__main {
+        width: 880px;
+        height: 73px;
+        font-weight: 800;
+        font-size: 110%;
+        top: 400px;
+        margin-left: 130px;
+        }
+        .note{
+        font-weight: 500;
+        font-size: 65%;
+        top: 322px;
+        letter-spacing: .02rem;
+        margin-top: 120px;
+        margin-left: 170px;
+        }
+        .contact{
+            font-weight: 500;
+            font-size: 70%;
+            margin-top: 260px;
+            top: 330px;
+            margin-left: 70px;
+        }
+        .form1{
+            margin-top: 665px;
+        }
+        input[type=text]{
+            font-weight: 500;
+            font-size: 90%;
+            padding: 10px 15px;
+            border: 0px;
+            margin-left: 20%;
+            border-radius: 15px;
+        }
+        input[type=submit]{
+        Width: 5%;
+        font-weight: 600;
+        font-size: 90%;
+        padding: 30px 3px;
+        margin-left: 27%;
+        margin-top: 665px;
+        border-radius: 25px;
+        }
+}
+@media only screen and (max-width:1024px){
+    .heading-primary__main {
+        width: 840px;
+        height: 67px;
+        font-weight: 800;
+        font-size: 90%;
+        top: 400px;
+        margin-left: 80px;
+        }
+        .note{
+        font-weight: 500;
+        font-size: 50%;
+        top: 322px;
+        letter-spacing: .02rem;
+        margin-top: 120px;
+        margin-left: 175px;
+        }
+        .contact{
+            font-weight: 500;
+            font-size: 60%;
+            margin-top: 260px;
+            top: 330px;
+            margin-left: 47px;
+        }
+        .form1{
+            margin-top: 665px;
+        }
+        input[type=text]{
+            font-weight: 500;
+            font-size: 80%;
+            padding: 8px 13px;
+            border: 0px;
+            margin-left: 10%;
+            border-radius: 15px;
+        }
+        input[type=submit]{
+        Width: 5%;
+        font-weight: 600;
+        font-size: 80%;
+        padding: 28px 3px;
+        margin-left: 25%;
+        margin-top: 665px;
+        border-radius: 25px;
+        }
 }
 @media only screen and (max-width:768px){
-
+    .heading-primary__main {
+        width: 850px;
+        height: 67px;
+        font-weight: 800;
+        font-size: 80%;
+        top: 500px;
+        margin-left: 90px;
+        }
+        .note{
+        font-weight: 500;
+        font-size: 46%;
+        top: 322px;
+        letter-spacing: .02rem;
+        margin-top: 210px;
+        margin-left: 225px;
+        }
+        .contact{
+            font-weight: 500;
+            font-size: 50%;
+            margin-top: 500px;
+            top: 220px;
+            margin-left: 10px;
+        }
+        .form1{
+            margin-top: 780px;
+        }
+        input[type=text]{
+            font-weight: 500;
+            font-size: 65%;
+            padding: 7px 12px;
+            border: 0px;
+            margin-left: 2%;
+            border-radius: 15px;
+        }
+        input[type=submit]{
+        Width: 5%;
+        font-weight: 600;
+        font-size: 65%;
+        padding: 25px 3px;
+        margin-left: 25%;
+        margin-top: 780px;
+        border-radius: 20px;
+        }
 }
-*/
