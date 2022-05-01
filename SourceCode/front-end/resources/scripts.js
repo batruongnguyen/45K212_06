@@ -19,9 +19,9 @@ function check() {
     let myContent = document.getElementById("info");
     let count = (myContent.value).length;
     if (question_01 == "4" && count >= 25) {
-        window.location = "http://127.0.0.1:5500/page2.html";
+        window.location = "https://beautyspa2.herokuapp.com/page2.html";
     } else if (question_02 == "5" && count >= 25) {
-        window.location = "http://127.0.0.1:5500/page2.html";
+        window.location = "https://beautyspa2.herokuapp.com/page2.html";
     } else if (question_03 == "0") {
         Swal.fire({
             icon: 'error',
@@ -35,7 +35,7 @@ function check() {
             text: 'Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé',
         })
     } else {
-        window.location = "http://127.0.0.1:5500/page3.html";
+        window.location = "https://beautyspa3.herokuapp.com/page3.html";
     }
 }
 
@@ -53,7 +53,7 @@ function checkphone() {
     var regExp = /^(0[1-9][0-9]{8}|1[89]00[0-9]{4})$/;
     var phone = document.getElementById("phone").value;
     if (regExp.test(phone))
-        window.location = "http://127.0.0.1:5500/page5.html";
+        window.location = "https://beautyspa2.herokuapp.com/page5.html";
     else
         Swal.fire({
             icon: 'error',
