@@ -1,6 +1,6 @@
 body {
     background-color: #6a7a61;
-    background: url("../img/background1.png");
+    background: url("../img/backgroundTK.png");
     background-size: cover;
     background-position: center;
     color: #2a2c1d;
@@ -10,7 +10,7 @@ body {
 
 .TK {
     position: absolute;
-    top: 47vh;
+    top: 48vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
