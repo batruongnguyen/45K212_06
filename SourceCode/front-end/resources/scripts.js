@@ -50,11 +50,19 @@ function popup() {
 /* ======== page 3 ========= */
 /*----- check phone -----*/
 function checkphone() {
+    let myContent = document.getElementById("name");
+    let count = (myContent.value).length;
     var regExp = /^(0[1-9][0-9]{8}|1[89]00[0-9]{4})$/;
     var phone = document.getElementById("phone").value;
-    if (regExp.test(phone))
+    if (regExp.test(phone) && (count > 0))
         window.location = "https://beautyspa2.herokuapp.com/page5.html";
-    else
+    else if (count == 0) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Oops...',
+            text: 'Bạn đã quên nhập tên của bạn?',
+        })
+    } else
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
