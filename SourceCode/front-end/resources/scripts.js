@@ -70,6 +70,9 @@ function checkphone() {
         })
 }
 
+function checka() {
+    window.location = "https://beautyspa2.herokuapp.com/page5.html";
+}
 /*--------------------------------*/
 // document.getElementById("rating3-1").onclick = function(a) {
 //     document.getElementById("info").style.display = 'initial';
