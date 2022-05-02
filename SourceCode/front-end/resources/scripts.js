@@ -19,9 +19,9 @@ function check() {
     let myContent = document.getElementById("info");
     let count = (myContent.value).length;
     if (question_01 == "4" && count >= 25) {
-        window.location = "https://beautyspa2.herokuapp.com/page2.html";
+        window.location = "https://beautyspap2.herokuapp.com/page2.html";
     } else if (question_02 == "5" && count >= 25) {
-        window.location = "https://beautyspa2.herokuapp.com/page2.html";
+        window.location = "https://beautyspap2.herokuapp.com/page2.html";
     } else if (question_03 == "0") {
         Swal.fire({
             icon: 'error',
@@ -35,7 +35,7 @@ function check() {
             text: 'Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé',
         })
     } else {
-        window.location = "https://beautyspa3.herokuapp.com/page3.html";
+        window.location = "https://beautyspap3.herokuapp.com/page3.html";
     }
 }
 
@@ -50,11 +50,19 @@ function popup() {
 /* ======== page 3 ========= */
 /*----- check phone -----*/
 function checkphone() {
+    let myContent = document.getElementById("name");
+    let count = (myContent.value).length;
     var regExp = /^(0[1-9][0-9]{8}|1[89]00[0-9]{4})$/;
     var phone = document.getElementById("phone").value;
-    if (regExp.test(phone))
-        window.location = "https://beautyspa2.herokuapp.com/page5.html";
-    else
+    if (regExp.test(phone) && (count > 0))
+        window.location = "https://beautyspa5.herokuapp.com/page5.html";
+    else if (count == 0) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Oops...',
+            text: 'Bạn đã quên nhập tên của bạn?',
+        })
+    } else
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
@@ -62,6 +70,9 @@ function checkphone() {
         })
 }
 
+function checka() {
+    window.location = "https://beautyspa5.herokuapp.com/page5.html";
+}
 /*--------------------------------*/
 // document.getElementById("rating3-1").onclick = function(a) {
 //     document.getElementById("info").style.display = 'initial';
