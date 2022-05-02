@@ -76,9 +76,56 @@
     }
     blockquote {
         font-size: 40%;
+        padding: 6px 30px;
+        
     }
   
 }
+@media only screen and (max-width:480px){
+    .text-box{
+        font-size: 150%;
+    }
+    .heading-primary__sub {
+        font-size: 32%;
+    }
+    .testimoials{
+        top: 60px;
+        left: 1%;
+    }
+    .col {
+        height: 70px;
+        margin-bottom: -32px;
+    }
+    blockquote {
+        font-size: 30%;
+        padding: 5px 20px;
+    }
+  
+}
+@media only screen and (max-width:320px){
+    .text-box{
+        font-size: 100%;
+    }
+    .heading-primary__sub {
+        font-size: 29%;
+    }
+    .testimoials{
+        top: 70px;
+        left: 1%;
+    }
+    .col {
+        height: 50px;
+        margin-bottom: -20px;
+    }
+    blockquote {
+        font-size: 20%;
+        padding: 3px 13px;
+    }
+  
+}
+
+
+
 
 
 

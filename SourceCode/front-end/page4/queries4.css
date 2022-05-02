@@ -42,13 +42,36 @@
         top: 40vh;
     }
 }
-
+@media only screen and (max-width:1024px){
+    html {
+        font-size: 16px;
+    }
+    .TK {
+        top: 37vh;
+    }
+}
 @media only screen and (max-width:768px) {
     html {
         font-size: 15px;
     }
     .TK {
         top: 35vh;
+    }
+}
+@media only screen and (max-width:480px){
+    html {
+        font-size: 9px;
+    }
+    .TK {
+        top: 31vh;
+    }
+}
+@media only screen and (max-width:320px){
+    html {
+        font-size: 6px;
+    }
+    .TK {
+        top: 27vh;
     }
 }
 
