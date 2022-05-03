@@ -25,6 +25,24 @@ section {
     font-size: 55%;
 }
 
+textarea {
+    margin-top: 45px;
+    resize: none;
+    height: 142px;
+    width: 795px;
+    border-radius: 5px;
+    background-color: #c2dcb4;
+    padding: 1% 1%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    border: 0px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+    color: #2d332b;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
 
 /*-------------*/
 
@@ -78,6 +96,23 @@ cite {
     background-color: #6a7d5f;
     box-shadow: 3px 5px 4px rgba(0, 0, 1, 0.2);
     color: #242b1e;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding-top: 40px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
 }
 
 
