@@ -1,63 +1,93 @@
-/*@media only screen and (max-width:1920px) {
+@media only screen and (max-width:1920px) {
     .text-box{
         font-size: 310%;
     }
-    .testimoials{
-        top: 4px;
-        left: 10%;
-}
+    .note {
+        height: 170px;
+        padding: 35px;
+        margin-left: 35%;
+        width: 270px;
+    }
+    textarea {
+        margin-top: 30px;
+        font-size: 90%;
+    }
 }
 @media only screen and (max-width:1688px){
     .text-box{
         font-size: 295%;
     }
-    .testimoials{
-        top: 1px;
-        left: 7%;  
-}
+    .note {
+        height: 165px;
+        padding: 30px;
+        margin-left: 15%;
+        width: 270px;
+    }
+    textarea {
+        margin-top: 35px;
+        font-size: 85%;
+    }
 }
 @media only screen and (max-width:1440px){
     .text-box{
         font-size: 270%;
     }
-    .testimoials{
-        top: -1px;
-        left: 5%;
+    .note {
+        height: 160px;
+        padding: 30px;
+        margin-left: 7%;
+        width: 250px;
+    }
+    textarea {
+        margin-top: 20px;
+        font-size: 80%;
 }
 }
 @media only screen and (max-width:1366px){
     .text-box{
         font-size: 255%;
     }
-    .testimoials{
-        top: -3px;
-        left: 2%;
+    .note {
+        height: 140px;
+        padding: 20px;
+        margin-left: 7%;
+        width: 240px;
+    }
+    textarea {
+        margin-top: 15px;
+        font-size: 72%;
 }
+
 }
 @media only screen and (max-width:1280px){
     .text-box{
         font-size: 240%;
     }
-    .testimoials{
-        top: -5px;
-        left: 1%;
+    .note {
+        height: 120px;
+        padding: 17px;
+        margin-left: 10%;
+        width: 230px;
+    }
+    textarea {
+        margin-top: 12px;
+        font-size: 71%;
+  
 }
 }
 @media only screen and (max-width:1024px){
     .text-box{
         font-size: 225%;
     }
-    .testimoials{
-        top: -7px;
-        left: 1%;
+    .note {
+        height: 120px;
+        padding: 17px;
+        margin-left: 10%;
+        width: 220px;
     }
-    .col {
-        height: 110px;
-        margin-bottom: -70px;
-    }
-    blockquote {
-        font-size: 55%;
-    }
+    textarea {
+        margin-top: 10px;
+        font-size: 69%;
 }
 @media only screen and (max-width:768px){
     .text-box{
@@ -66,18 +96,15 @@
     .heading-primary__sub {
         font-size: 47%;
     }
-    .testimoials{
-        top: 50px;
-        left: 1%;
+    .note {
+        height: 100px;
+        padding: 14px;
+        margin-left: 10%;
+        width: 200px;
     }
-    .col {
-        height: 110px;
-        margin-bottom: -40px;
-    }
-    blockquote {
-        font-size: 40%;
-        padding: 6px 30px;
-        
+    textarea {
+        margin-top: 4px;
+        font-size: 65%;
     }
   
 }
@@ -121,11 +148,4 @@
         font-size: 20%;
         padding: 3px 13px;
     }
-  
 }
-*/
-
-
-
-
-
