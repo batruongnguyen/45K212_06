@@ -16,10 +16,10 @@ function check() {
     var comments = document.getElementById("info").value;
     let myContent = document.getElementById("info");
     let count = (myContent.value).length;
-    if (question_01 == "4" && count >= 25) {
-        window.location = "../../ratingHandle.php?goal=page2.html&rating="+question_01+"&comments="+comments+"&name=null&phone=null";
+    if (question_01 == "4" && 249 > count >= 25) {
+        window.location = "../../ratingHandle.php?goal=page2.html&rating=" + question_01 + "&comments=" + comments + "&name=null&phone=null";
     } else if (question_01 == "5" && count >= 25) {
-        window.location = "../../ratingHandle.php?goal=page2.html&rating="+question_01+"&comments="+comments+"&name=null&phone=null";
+        window.location = "../../ratingHandle.php?goal=page2.html&rating=" + question_01 + "&comments=" + comments + "&name=null&phone=null";
     } else if (question_01 == "0") {
         Swal.fire({
             icon: 'error',
@@ -31,6 +31,12 @@ function check() {
             icon: 'warning',
             title: 'Oops...',
             text: 'Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé',
+        })
+    } else if (count > 249) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Oops...',
+            text: 'Hãy đánh giá cho chúng mình dưới 250 kí tự bạn nhé~',
         })
     } else {
         localStorage['star'] = question_01;
@@ -58,8 +64,8 @@ function checkphone() {
     var regExp = /^(0[1-9][0-9]{8}|1[89]00[0-9]{4})$/;
     var phone = document.getElementById("phone").value;
     if (regExp.test(phone) && (count > 0))
-        // window.location = "../../page5.html";
-        window.location = "../../ratingHandle.php?goal=page5.html&rating="+local_star+"&comments="+local_comment+"&name="+name+"&phone="+phone;
+    // window.location = "../../page5.html";
+        window.location = "../../ratingHandle.php?goal=page5.html&rating=" + local_star + "&comments=" + local_comment + "&name=" + name + "&phone=" + phone;
     else if (count == 0) {
         Swal.fire({
             icon: 'warning',

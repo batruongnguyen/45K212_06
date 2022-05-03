@@ -1,19 +1,31 @@
-const noteContainer = document.getElementById('board');
+const tbl = document.getElementById('rate-table');
 
+fetchData()
 
-fetchHighData()
-
-function getNode(data) {
+function getRow(data) {
     var obj = JSON.parse(JSON.stringify(data) || "[]");
     var res = [];
-    var result = [];
-    for (var i in obj) res.push(obj[i]);
-    // console.log(obj);
+    // for(var i in obj) {
+    //   res.push(obj[i]);
+    // }
+    for (i = 0; i < obj.length; i++) {
+        var tmp = [];
+        var star = "";
+        console.log(obj[i][2]);
+        for (var j = 0; j < parseInt(obj[i][2]); j++) { star += '⭐'; }
+        tmp[i] = {
+            0: obj[i][5]["phone"],
+            1: obj[i][3],
+            2: star,
+            3: obj[i][4],
+        };
+        res.push(tmp[i]);
+    }
     return res;
 }
 
-async function fetchHighData() {
-    const response = await fetch("fetchHighData.php", {
+async function fetchData() {
+    const response = await fetch("fetchRate.php", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -23,9 +35,13 @@ async function fetchHighData() {
         .then(data => {
             // console.log(data);  
             if (typeof data == 'object') {
-                getNode(data).forEach(note => {
-                    const noteElement = createNote(note[0], note[2], note[3], note[5]['username']);
-                    noteContainer.insertBefore(noteElement, null);
+                getRow(data).forEach(note => {
+                    var row = tbl.insertRow(tbl.rows.length),
+                        i;
+                    console.log(tbl.rows[0].cells.length);
+                    for (i = 0; i < tbl.rows[0].cells.length; i++) {
+                        createCell(row.insertCell(i), note[i], 'row');
+                    }
                 })
             }
 
@@ -35,13 +51,12 @@ async function fetchHighData() {
         });;
 }
 
-function createNote(id, star, content, username) {
-    const element = document.createElement("textarea");
-    element.classList.add("note");
-    element.value += username + ': \n';
-    element.style = "height: 200px; box-sizing: border-box; padding: 16px; border: none; border-radius: 10px; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); resize:none; font-family: sans-serif; font-size:16px;"
-    for (var i = 0; i < parseInt(star); i++) { element.value += '⭐'; }
-    element.value += "\n" + content;
-    element.readOnly = true;
-    return element;
+// create DIV element and append to the table cell
+function createCell(cell, text, style) {
+    var div = document.createElement('div'), // create DIV element
+        txt = document.createTextNode(text); // create text node
+    div.appendChild(txt); // append text node to the DIV
+    div.setAttribute('class', style); // set DIV class attribute
+    div.setAttribute('className', style); // set DIV class attribute for IE (?!)
+    cell.appendChild(div); // append DIV to the table cell
 }
