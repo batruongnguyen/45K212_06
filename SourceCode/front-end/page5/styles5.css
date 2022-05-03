@@ -40,7 +40,14 @@ textarea {
         color: #2d332b;
         -webkit-transition: 0.5s;
         transition: 0.5s;
-        height: 100px; box-sizing: border-box; padding: 16px; border: none; border-radius: 10px; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); resize:none; font-family: sans-serif; font-size:16px;
+        height: 170px;
+        box-sizing: border-box;
+        padding: 16px; border: none; 
+        border-radius: 10px; 
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); 
+        resize:none; 
+        font-family: sans-serif; 
+        font-size:16px;
     }
 /*-------------*/
 
@@ -109,9 +116,9 @@ cite {
     box-sizing: border-box;
     padding: 25px;
     border: none;
-    border-radius: 35px;
+    border-radius: 50px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
-    width: 260px;
+    width: 200px;
 }
 
 
