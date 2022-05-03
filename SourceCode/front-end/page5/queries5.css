@@ -97,14 +97,14 @@
         font-size: 47%;
     }
     .note {
-        height: 100px;
+        height: 95px;
         padding: 14px;
         margin-left: 10%;
-        width: 200px;
+        width: 180px;
     }
     textarea {
         margin-top: 4px;
-        font-size: 65%;
+        font-size: 60%;
     }
   
 }
