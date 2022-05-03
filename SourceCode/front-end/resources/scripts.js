@@ -17,9 +17,9 @@ function check() {
     let myContent = document.getElementById("info");
     let count = (myContent.value).length;
     if (question_01 == "4" && count >= 25) {
-        window.location = "../../ratingHandle.php?goal=page2.html&rating=" + question_01 + "&comments=" + comments + "&name=null&phone=null";
+        window.location = "../../ratingHandle.php?goal=page2.html&rating="+question_01+"&comments="+comments+"&name=null&phone=null";
     } else if (question_01 == "5" && count >= 25) {
-        window.location = "../../ratingHandle.php?goal=page2.html&rating=" + question_01 + "&comments=" + comments + "&name=null&phone=null";
+        window.location = "../../ratingHandle.php?goal=page2.html&rating="+question_01+"&comments="+comments+"&name=null&phone=null";
     } else if (question_01 == "0") {
         Swal.fire({
             icon: 'error',
@@ -44,16 +44,8 @@ function check() {
 function popup() {
     let params =
         'width=window.innerWidth,height=window.innerHeight,menubar=no,toolbar=no,location=no,status=no,resizable=no,scrollbars=no'
-    open('https://www.facebook.com/BeautySpaDaNang/', 'test', params);
-    window.location = "../../page5.html";
+    open('https://www.facebook.com/', 'test', params);
 }
-
-document.getElementById("ab").onclick = function() {
-    Swal.fire({
-        text: 'Hãy đánh giá cho chúng mình trên fanpage dưới dạng đề xuất nhé',
-    })
-    setTimeout(popup, 2000)
-};
 
 /* ======== page 3 ========= */
 /*----- check phone -----*/
@@ -66,8 +58,8 @@ function checkphone() {
     var regExp = /^(0[1-9][0-9]{8}|1[89]00[0-9]{4})$/;
     var phone = document.getElementById("phone").value;
     if (regExp.test(phone) && (count > 0))
-    // window.location = "../../page5.html";
-        window.location = "../../ratingHandle.php?goal=page5.html&rating=" + local_star + "&comments=" + local_comment + "&name=" + name + "&phone=" + phone;
+        // window.location = "../../page5.html";
+        window.location = "../../ratingHandle.php?goal=page5.html&rating="+local_star+"&comments="+local_comment+"&name="+name+"&phone="+phone;
     else if (count == 0) {
         Swal.fire({
             icon: 'warning',
@@ -82,7 +74,7 @@ function checkphone() {
         })
 }
 
-function render() {
+function checka() {
     window.location = "../../page5.html";
 }
 /*--------------------------------*/
