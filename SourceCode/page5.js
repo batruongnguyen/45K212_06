@@ -38,7 +38,10 @@ async function fetchHighData() {
 function createNote(id, star, content, username) {
     const element = document.createElement("textarea");
     element.classList.add("note");
+<<<<<<< HEAD
     element.value += username + ': \n';
+=======
+>>>>>>> 37921022aa44f7a422debd3b71f62e198d09c303
     element.style = ""
     for (var i = 0; i < parseInt(star); i++) { element.value += '⭐'; }
     element.value += "\n" + content;
