@@ -12,6 +12,6 @@
     echo json_encode($result);
     mysqli_free_result($fetch);
     mysqli_close($link);
-    header('Content-Type: application/json; charset=utf-8');
+    // header('Content-Type: application/json; charset=utf-8');
     exit();
 ?>
