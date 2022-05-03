@@ -39,7 +39,7 @@ function createNote(id, star, content, username) {
     const element = document.createElement("textarea");
     element.classList.add("note");
     element.value += username + ': \n';
-    element.style = "height: 200px; box-sizing: border-box; padding: 16px; border: none; border-radius: 10px; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); resize:none; font-family: sans-serif; font-size:16px;"
+    element.style = ""
     for (var i = 0; i < parseInt(star); i++) { element.value += '⭐'; }
     element.value += "\n" + content;
     element.readOnly = true;
