@@ -6,7 +6,7 @@
     $db_selected = mysqli_select_db($link,'beautyspa');
     try {
         if(($star === '4')||($star === '5')) {
-            $user = '1';
+            $userID = '1';
             $sql1 = "SELECT username, Phone from Users where user_ID = '$user'";
             $fetch = mysqli_query($link,$sql1);
             $result = mysqli_fetch_array($fetch);
@@ -16,18 +16,22 @@
         else{
             $username = $_REQUEST['name'];
             $phone = $_REQUEST['phone'];
-            $user = $phone;
             $password = '123';
-            $sql1 = "INSERT INTO Users(user_ID,username,Phone,Password) VALUES('$user','$username','$phone','$password')";
+            $sql1 = "INSERT INTO Users(username,Phone,Password) VALUES('$username','$phone','$password')";
             $fetch = mysqli_query($link,$sql1);
+            $sql2 = "SELECT user_ID from Users where Phone = '$phone'";
+            $fetch1 = mysqli_query($link,$sql2);
+            $result = mysqli_fetch_array($fetch1);
+            $userID = $result['user_ID'];
         }
-        $rs = mysqli_query($link,"INSERT INTO Web_review(user_id,star,comment,image) VALUES('$user','$star','$comment','#')");
+        $rs = mysqli_query($link,"INSERT INTO Web_review(user_ID, star,comment,image) VALUES('$userID', '$star','$comment','#')");
         header("Location:$goal");
     }
     catch (Exception $e){
         echo $e->getMessage();}
     
     mysqli_free_result($fetch);
+    mysqli_free_result($fetch1);
     mysqli_free_result($rs);
     mysqli_close($link);
 ?>
