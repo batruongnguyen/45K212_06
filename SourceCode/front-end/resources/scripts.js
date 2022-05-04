@@ -19,10 +19,8 @@ function check() {
     localStorage['star'] = question_01;
     localStorage['comment'] = comments;
     if (question_01 == "4" && count < 249 && count >= 25) {
-        console.log("4 sao")
         window.location = "../../ratingHandle.php?goal=page2.html&rating=" + question_01 + "&comments=" + comments + "&name=null&phone=null";
     } else if (question_01 == "5" && count < 249 && count >= 25) {
-        console.log("5 sao")
         window.location = "../../ratingHandle.php?goal=page2.html&rating=" + question_01 + "&comments=" + comments + "&name=null&phone=null";
     } else if (question_01 == "0") {
         Swal.fire({
@@ -43,7 +41,6 @@ function check() {
             text: 'Hãy đánh giá cho chúng mình dưới 250 kí tự bạn nhé!',
         })
     } else {
-        console.log("3 sao")
         window.location = "../../page3.html";
     }
 }
