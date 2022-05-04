@@ -3,7 +3,7 @@ section {
     background: url("../img/background1.png");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 139vh;
 }
 
 .text-box {
@@ -41,11 +41,15 @@ textarea {
     color: #2d332b;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-   
-        
-    }
-/*-------------*/
+    -ms-overflow-style: none; /* khai báo sử dụng Internet Explorer, Edge */
+    scrollbar-width: none; /* sử dụng Firefox */
+    overflow-y: scroll;
 
+}
+
+textarea::-webkit-scrollbar {
+    display: none; /* cho Chrome, Safari, and Opera */
+}
 .testimoials {
     position: absolute;
     color: black;
@@ -100,10 +104,11 @@ cite {
 
 #board {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: 200px 200px 200px;
     padding-top: 40px;
     padding: 24px;
-    gap: 24px;
+    gap: 30px;
+    column-gap: 120px
 }
 
 .note {
@@ -111,10 +116,10 @@ cite {
     box-sizing: border-box;
     padding: 28px;
     border: none;
-    border-radius: 50px;
+    border-radius: 40px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
     width: 230px;
-}
+} 
 
 
 /* #full-stars-example-two .rating-group {
