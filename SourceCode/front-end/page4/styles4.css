@@ -3,14 +3,14 @@ body {
     background: url("../img/backgroundTK.png");
     background-size: cover;
     background-position: center;
-    color: #ffffff;
+    color: #2a2c1d;
     height: 100vh;
     overflow-x: auto;
 }
 
 .TK {
     position: absolute;
-    top: 30vh;
+    top: 48vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -23,7 +23,7 @@ body {
 h1 {
     border: 2px dashed #b5b6a8;
     padding: .6rem 0;
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: #b5b6a8;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -32,11 +32,11 @@ h1 {
 .table {
     position: relative;
     padding-top: 2rem;
-    left: -150%;
+    left: -100%;
 }
 
 table {
-    width: 400%;
+    width: 300%;
     font-family: 'Quicksand', sans-serif;
     border-collapse: collapse;
     padding-top: 2rem;
