@@ -1,9 +1,9 @@
-/* @media only screen and (max-width:1920px) {
+@media only screen and (max-width:1920px) {
     html {
         font-size: 26px;
     }
     .TK {
-        top: 60vh;
+        top: 70vh;
     }
     body {
         height: 120vh;
@@ -14,23 +14,17 @@
     html {
         font-size: 24px;
     }
-    .TK {
-        top: 58vh;
-    }
     body {
         height: 115vh;
     }
 }
 
 @media only screen and (max-width:1440px) {
-    .TK {
-        top: 48vh;
-    }
     html {
-        font-size: 72px;
+        font-size: 20px;
     }
     body {
-        height: 145vh;
+        height: 90vh;
     }
 }
 
@@ -51,10 +45,10 @@
         font-size: 18px;
     }
     .TK {
-        top: 61vh;
+        top: 55vh;
     }
     body {
-        height: 125vh;
+        height: 130vh;
     }
 }
 
@@ -63,10 +57,10 @@
         font-size: 16px;
     }
     .TK {
-        top: 55vh;
+        top: 65vh;
     }
     body {
-        height: 110vh;
+        height: 120vh;
     }
 }
 
@@ -87,7 +81,7 @@
         font-size: 9px;
     }
     .TK {
-        top: 31vh;
+        top: 40vh;
     }
     body {
         height: 100vh;
@@ -104,4 +98,4 @@
     body {
         height: 100vh;
     }
-} */
+}
