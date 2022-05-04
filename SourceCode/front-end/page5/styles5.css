@@ -1,6 +1,6 @@
 section {
     background-color: #6a7a61;
-    background: url("../img/background1.png");
+    background: url("../img/background5.png");
     background-size: cover;
     background-position: center;
     height: 139vh;
@@ -24,6 +24,7 @@ section {
 .heading-primary__sub {
     font-size: 55%;
 }
+
 textarea {
     margin-top: 10px;
     resize: none;
@@ -34,22 +35,25 @@ textarea {
     padding: 1% 1%;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size:75%;
+    font-size: 75%;
     border: 0px solid #ccc;
     transition: 0.5s;
     outline: none;
     color: #2d332b;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    -ms-overflow-style: none; /* khai báo sử dụng Internet Explorer, Edge */
-    scrollbar-width: none; /* sử dụng Firefox */
+    -ms-overflow-style: none;
+    /* khai báo sử dụng Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* sử dụng Firefox */
     overflow-y: scroll;
-
 }
 
 textarea::-webkit-scrollbar {
-    display: none; /* cho Chrome, Safari, and Opera */
+    display: none;
+    /* cho Chrome, Safari, and Opera */
 }
+
 .testimoials {
     position: absolute;
     color: black;
@@ -119,7 +123,7 @@ cite {
     border-radius: 40px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
     width: 230px;
-} 
+}
 
 
 /* #full-stars-example-two .rating-group {
