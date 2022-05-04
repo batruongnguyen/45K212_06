@@ -34,13 +34,13 @@ function check() {
         Swal.fire({
             icon: 'warning',
             title: 'Oops...',
-            text: 'Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé',
+            text: 'Hãy nhận xét cho chúng mình ít nhất 25 ký tự bạn nhé!',
         })
     } else if (count > 249) {
         Swal.fire({
             icon: 'warning',
             title: 'Oops...',
-            text: 'Hãy đánh giá cho chúng mình dưới 250 kí tự bạn nhé~',
+            text: 'Hãy đánh giá cho chúng mình dưới 250 kí tự bạn nhé!',
         })
     } else {
         console.log("3 sao")
