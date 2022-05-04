@@ -1,9 +1,12 @@
-@media only screen and (max-width:1920px) {
+/* @media only screen and (max-width:1920px) {
     html {
         font-size: 26px;
     }
     .TK {
-        top: 42vh;
+        top: 60vh;
+    }
+    body {
+        height: 120vh;
     }
 }
 
@@ -12,7 +15,10 @@
         font-size: 24px;
     }
     .TK {
-        top: 40vh;
+        top: 58vh;
+    }
+    body {
+        height: 115vh;
     }
 }
 
@@ -21,7 +27,10 @@
         top: 48vh;
     }
     html {
-        font-size: 22px;
+        font-size: 72px;
+    }
+    body {
+        height: 145vh;
     }
 }
 
@@ -30,7 +39,10 @@
         font-size: 20px;
     }
     .TK {
-        top: 48vh;
+        top: 78vh;
+    }
+    body {
+        height: 155vh;
     }
 }
 
@@ -39,17 +51,25 @@
         font-size: 18px;
     }
     .TK {
-        top: 40vh;
+        top: 61vh;
+    }
+    body {
+        height: 125vh;
     }
 }
-@media only screen and (max-width:1024px){
+
+@media only screen and (max-width:1024px) {
     html {
         font-size: 16px;
     }
     .TK {
-        top: 37vh;
+        top: 55vh;
+    }
+    body {
+        height: 110vh;
     }
 }
+
 @media only screen and (max-width:768px) {
     html {
         font-size: 15px;
@@ -57,52 +77,31 @@
     .TK {
         top: 35vh;
     }
+    body {
+        height: 100vh;
+    }
 }
-@media only screen and (max-width:480px){
+
+@media only screen and (max-width:480px) {
     html {
         font-size: 9px;
     }
     .TK {
         top: 31vh;
     }
+    body {
+        height: 100vh;
+    }
 }
-@media only screen and (max-width:320px){
+
+@media only screen and (max-width:320px) {
     html {
         font-size: 6px;
     }
     .TK {
         top: 27vh;
     }
-}
-
-
-/*@media (max-width: 1024px) {
-    h1 {
-        font-size: 30px;
+    body {
+        height: 100vh;
     }
-}
-
-@media (max-width: 800px) {
-    h1 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 600px) {
-    h1 {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 24px;
-    }
-}
-*/
+} */
