@@ -1,9 +1,9 @@
 section {
     background-color: #6a7a61;
-    background: url("../img/background5.png");
+    background: url("../img/background55.png");
     background-size: cover;
     background-position: center;
-    height: 138vh;
+    height: 139vh;
 }
 
 .text-box {
@@ -111,8 +111,7 @@ cite {
     grid-template-columns: 200px 200px 200px;
     padding-top: 40px;
     padding: 24px;
-    gap: 30px;
-    column-gap: 120px
+    column-gap: 120px;
 }
 
 .note {
