@@ -50,15 +50,45 @@
             </h1>
 
             <ul>
-                <li onclick="popup()"><a href="#">Có</a></li>
+                <li>
+                    <div id="ogBtn" class="btn btn-success clearfix"><a>Có<a></div></li>
+                    <script>
+                        var star="";
+                          var local_star = localStorage['star'];
+                         var local_comment = localStorage['comment'];
+                         for (var j = 0; j < parseInt(local_star); j++) { star += '⭐'; }
+                        document.getElementById('ogBtn').onclick = function() {
+                        window.FB.ui({
+                            display: 'popup',
+                            method: 'share_open_graph',
+                            action_type: 'og.likes',
+                            action_properties: JSON.stringify({
+                                object:'https://beautyspadanang.herokuapp.com/',
+                                quote:star+local_comment,
+                                
+                            })
+                        }, function(response) { window.location = "../../page5.html"; });
+                        }
+                    </script>
                 <li onclick="checka()">Không</a>
                 </li>
             </ul>
-        </div>
+            </div>
 
     </Section>
 
     <script src="./front-end/resources/scripts.js"></script>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '4843628795735571',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v13.0'
+            });
+        };
+    </script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </body>
 
 </html>

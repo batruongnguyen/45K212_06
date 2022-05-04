@@ -29,9 +29,6 @@
     }
     catch (Exception $e){
         echo $e->getMessage();}
-    
-    mysqli_free_result($fetch);
-    mysqli_free_result($fetch1);
-    mysqli_free_result($rs);
+
     mysqli_close($link);
 ?>
